@@ -13,26 +13,66 @@ nav:
   - Draft Outline: draft-outline.md
   - Chapters:
     - Overview: chapters/index.md
-    - 1. Scientific Foundations: chapters/01-scientific-foundations/index.md
-    - 2. Ecology and Conservation: chapters/02-ecology-and-conservation/index.md
-    - 3. What Is Moss?: chapters/03-what-is-moss/index.md
-    - 4. Moss Anatomy and Life Cycle: chapters/04-moss-anatomy-and-life-cycle/index.md
-    - 5. Moss Types and Identification: chapters/05-moss-types-and-identification/index.md
-    - 6. Water, Climate, and Moss: chapters/06-water-climate-and-moss/index.md
-    - 7. Moss Ecology and Ecosystems: chapters/07-moss-ecology-and-ecosystems/index.md
-    - 8. Harvesting and Propagation: chapters/08-harvesting-and-propagation/index.md
-    - 9. Troubleshooting and Equipment: chapters/09-troubleshooting-and-equipment/index.md
-    - 10. Designing a Moss Garden: chapters/10-designing-a-moss-garden/index.md
-    - 11. Garden Styles and Alternatives: chapters/11-garden-styles-and-alternatives/index.md
-    - 12. Building a Mossarium: chapters/12-building-a-mossarium/index.md
-    - 13. Indoor Moss and Biophilic Design: chapters/13-indoor-moss-and-biophilic-design/index.md
-    - 14. Moss in Architecture: chapters/14-moss-in-architecture/index.md
-    - 15. Moss as Art and Culture: chapters/15-moss-as-art-and-culture/index.md
-    - 16. Moss in Education: chapters/16-moss-in-education/index.md
-    - 17. Systems Thinking and Biomimicry: chapters/17-systems-thinking-and-biomimicry/index.md
-    - 18. AI, Simulation, and Technology: chapters/18-ai-simulation-and-technology/index.md
-    - 19. The Future of Moss: chapters/19-the-future-of-moss/index.md
-    - 20. Capstone: chapters/20-capstone/index.md
+    - 1. Scientific Foundations:
+      - Content: chapters/01-scientific-foundations/index.md
+      - Quiz: chapters/01-scientific-foundations/quiz.md
+    - 2. Ecology and Conservation:
+      - Content: chapters/02-ecology-and-conservation/index.md
+      - Quiz: chapters/02-ecology-and-conservation/quiz.md
+    - 3. What Is Moss?:
+      - Content: chapters/03-what-is-moss/index.md
+      - Quiz: chapters/03-what-is-moss/quiz.md
+    - 4. Moss Anatomy and Life Cycle:
+      - Content: chapters/04-moss-anatomy-and-life-cycle/index.md
+      - Quiz: chapters/04-moss-anatomy-and-life-cycle/quiz.md
+    - 5. Moss Types and Identification:
+      - Content: chapters/05-moss-types-and-identification/index.md
+      - Quiz: chapters/05-moss-types-and-identification/quiz.md
+    - 6. Water, Climate, and Moss:
+      - Content: chapters/06-water-climate-and-moss/index.md
+      - Quiz: chapters/06-water-climate-and-moss/quiz.md
+    - 7. Moss Ecology and Ecosystems:
+      - Content: chapters/07-moss-ecology-and-ecosystems/index.md
+      - Quiz: chapters/07-moss-ecology-and-ecosystems/quiz.md
+    - 8. Harvesting and Propagation:
+      - Content: chapters/08-harvesting-and-propagation/index.md
+      - Quiz: chapters/08-harvesting-and-propagation/quiz.md
+    - 9. Troubleshooting and Equipment:
+      - Content: chapters/09-troubleshooting-and-equipment/index.md
+      - Quiz: chapters/09-troubleshooting-and-equipment/quiz.md
+    - 10. Designing a Moss Garden:
+      - Content: chapters/10-designing-a-moss-garden/index.md
+      - Quiz: chapters/10-designing-a-moss-garden/quiz.md
+    - 11. Garden Styles and Alternatives:
+      - Content: chapters/11-garden-styles-and-alternatives/index.md
+      - Quiz: chapters/11-garden-styles-and-alternatives/quiz.md
+    - 12. Building a Mossarium:
+      - Content: chapters/12-building-a-mossarium/index.md
+      - Quiz: chapters/12-building-a-mossarium/quiz.md
+    - 13. Indoor Moss and Biophilic Design:
+      - Content: chapters/13-indoor-moss-and-biophilic-design/index.md
+      - Quiz: chapters/13-indoor-moss-and-biophilic-design/quiz.md
+    - 14. Moss in Architecture:
+      - Content: chapters/14-moss-in-architecture/index.md
+      - Quiz: chapters/14-moss-in-architecture/quiz.md
+    - 15. Moss as Art and Culture:
+      - Content: chapters/15-moss-as-art-and-culture/index.md
+      - Quiz: chapters/15-moss-as-art-and-culture/quiz.md
+    - 16. Moss in Education:
+      - Content: chapters/16-moss-in-education/index.md
+      - Quiz: chapters/16-moss-in-education/quiz.md
+    - 17. Systems Thinking and Biomimicry:
+      - Content: chapters/17-systems-thinking-and-biomimicry/index.md
+      - Quiz: chapters/17-systems-thinking-and-biomimicry/quiz.md
+    - 18. AI, Simulation, and Technology:
+      - Content: chapters/18-ai-simulation-and-technology/index.md
+      - Quiz: chapters/18-ai-simulation-and-technology/quiz.md
+    - 19. The Future of Moss:
+      - Content: chapters/19-the-future-of-moss/index.md
+      - Quiz: chapters/19-the-future-of-moss/quiz.md
+    - 20. Capstone:
+      - Content: chapters/20-capstone/index.md
+      - Quiz: chapters/20-capstone/quiz.md
   - FAQ: faq.md
   - Glossary: glossary.md
   - Learning Graph:
@@ -43,6 +83,7 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
     - FAQ Quality Report: learning-graph/faq-quality-report.md
+    - Quiz Generation Report: learning-graph/quiz-generation-report.md
     - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
     - List of MicroSims: sims/index.md
