@@ -14,7 +14,9 @@
 
 Used as the foundation for all pose variants:
 
-> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog, a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat and has a small magnifying glass hanging on a cord around his neck. The character is compact and expressive, suitable for icon-sized display. Style: modern flat cartoon with soft watercolor textures, clean lines, transparent or white background, suitable for embedding in educational content. No text in image.
+> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog, a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat and has a small magnifying glass hanging on a cord around his neck. 
+
+The character is compact and expressive, suitable for icon-sized display. Style: modern flat cartoon with soft watercolor textures, clean lines, transparent or white background, suitable for embedding in educational content. No text in image.
 
 ## Pose Variants
 
@@ -22,7 +24,8 @@ Used as the foundation for all pose variants:
 
 **Filename:** `neutral.png`
 
-> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog, a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat and has a small magnifying glass hanging on a cord around his neck. Style: modern flat cartoon with soft watercolor textures, clean lines, transparent or white background, no text in image. Mossby stands upright in a relaxed, neutral pose facing the viewer directly, with a calm and friendly closed-mouth smile. His front feet rest naturally at his sides with no specific gesture. The pose is balanced and unassuming — suitable as a general-purpose illustration.
+> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog, a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat with a red mushroom on it and has a small magnifying glass hanging on a cord around his neck. Mossby has small patches of moss on his shoulders and arms.
+Style: modern flat cartoon with soft watercolor textures, clean lines, transparent or white background, no text in image. Mossby stands upright in a relaxed, neutral pose facing the viewer directly, with a calm and friendly closed-mouth smile. His front feet rest naturally at his sides with no specific gesture. The pose is balanced and unassuming — suitable as a general-purpose illustration.
 
 ### 2. Welcome / Introduction Pose
 
@@ -34,7 +37,7 @@ Used as the foundation for all pose variants:
 
 **Filename:** `thinking.png`
 
-> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog in a classic thinking pose. Mossy is a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat with a red mushroom on it and has a small magnifying glass hanging on a cord around his neck. Mossby has small patches of moss on his shoulders and arms.  Style: modern flat cartoon with soft watercolor textures, clean lines, transparent or white background, no text in image. Mossby has one front foot on his chin in a thoughtful pose, looking slightly upward with curious wide eyes. A small lightbulb glows softly above his head. The pose suggests deep thinking and discovery.
+> A flat cartoon illustration with soft watercolor textures of Mossby the Tree Frog in a classic thinking pose. Mossy is a friendly pedagogical mascot for a moss biology and ecology textbook. Mossby is a small bright green tree frog with golden eyes, large adhesive toe pads, and a lighter lime-green belly. He wears a tiny brown gardening hat with a red mushroom on it and has a small magnifying glass hanging on a cord around his neck. Mossby has small patches of moss on his shoulders and arms.  Style: modern flat cartoon with soft watercolor textures, clean lines, transparent png image, no text in image. Mossby has one front foot on his chin in a thoughtful pose, looking slightly upward with curious wide eyes. A small lightbulb glows softly above his head. The pose suggests deep thinking and discovery.
 
 ### 4. Tip / Hint Pose
 

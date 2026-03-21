@@ -40,6 +40,7 @@ nav:
     - Graph Quality Analysis: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
     - Graph Viewer: sims/graph-viewer/index.md
 
@@ -84,11 +85,12 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight:
       linenums: true
-  - pymdownx.arithmetic:
+  - pymdownx.arithmatex:
       generic: true
 
 extra_css:
   - css/extra.css
+  - css/mascot.css
 
 extra_javascript:
   - js/extra.js
