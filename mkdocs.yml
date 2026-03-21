@@ -42,7 +42,12 @@ nav:
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
     - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
-    - Graph Viewer: sims/graph-viewer/index.md
+    - List of MicroSims: sims/index.md
+    - Bryophyte Comparison MicroSim: sims/bryophyte-comparison/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - "Water Transport Comparison: Vascular Plant vs Moss": sims/water-transport-comparison/index.md
+
+
 
 theme:
   name: material
@@ -98,6 +103,9 @@ extra_javascript:
 watch:
   - docs
   - mkdocs.yml
+
+exclude_docs: |
+  sims/bryophyte-comparison/image-prompt.md
 
 extra:
   generator: false

@@ -1134,11 +1134,34 @@ class DiagramSim {
   // ── JSON export ───────────────────────────────────────────────────────────
 
   updateJSONOutput() {
+    // Build callouts array from current DOM order so that drag-reorder
+    // in dual-panel and top-bottom layouts is preserved in the export.
+    let orderedCallouts;
+    if (this.layout === 'dual-panel' && this.labelPanelLeft && this.labelPanelRight) {
+      const leftRows  = [...this.labelPanelLeft.querySelectorAll('.label-row')];
+      const rightRows = [...this.labelPanelRight.querySelectorAll('.label-row')];
+      const domOrder  = [...leftRows, ...rightRows];
+      orderedCallouts = domOrder.map(row => {
+        const id = parseInt(row.dataset.id);
+        return { ...this.data.callouts.find(c => c.id === id) };
+      });
+    } else if (this.layout === 'top-bottom' && this.labelPanelTop && this.labelPanelBottom) {
+      const topRows    = [...this.labelPanelTop.querySelectorAll('.label-row')];
+      const bottomRows = [...this.labelPanelBottom.querySelectorAll('.label-row')];
+      const domOrder   = [...topRows, ...bottomRows];
+      orderedCallouts = domOrder.map(row => {
+        const id = parseInt(row.dataset.id);
+        return { ...this.data.callouts.find(c => c.id === id) };
+      });
+    } else {
+      orderedCallouts = this.data.callouts.map(c => ({ ...c }));
+    }
+
     const exportData = {
       title:       this.data.title,
       orientation: this.data.orientation,
       image:       this.data.image,
-      callouts:    this.data.callouts.map(c => ({ ...c }))
+      callouts:    orderedCallouts
     };
     if (this.data.layout)  exportData.layout      = this.data.layout;
     if (!this.showNumbers) exportData.showNumbers = false;
