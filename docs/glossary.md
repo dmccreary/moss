@@ -10,6 +10,9 @@ Raised moss tabletop gardens bring nature within reach of people who cannot acce
 
 #### Acrocarpous Moss
 
+<audio id="audio-acrocarpous" src="../audio/acrocarpous.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-acrocarpous').play()" class="pronounce-btn">🔊 Pronounce</button> *ak-roh-KAR-pus*
+
 Mosses that produce sporophytes at the tips of upright stems, typically growing in erect, tufted cushions. They tend to be slower-growing and more drought-tolerant than pleurocarpous mosses.
 
 Distinguishing acrocarpous from pleurocarpous growth forms is the first step in narrowing down moss identification in the field.
@@ -124,6 +127,9 @@ Ethical consideration of bioengineering is essential before releasing engineered
 
 #### Biogeography Basics
 
+<audio id="audio-biogeography" src="../audio/biogeography.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-biogeography').play()" class="pronounce-btn">🔊 Pronounce</button> *bye-oh-jee-OG-rah-fee*
+
 The study of the geographic distribution of species and ecosystems, and the historical, ecological, and evolutionary processes that produce distribution patterns.
 
 Biogeography explains why different moss species are found on different continents and why some regions have far more moss species than others.
@@ -144,11 +150,17 @@ Moss-based lesson plans align with Next Generation Science Standards and provide
 
 #### Biomimicry
 
+<audio id="audio-biomimicry" src="../audio/biomimicry.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-biomimicry').play()" class="pronounce-btn">🔊 Pronounce</button> *bye-oh-MIM-ik-ree*
+
 The design practice of studying and imitating strategies found in nature to solve human engineering challenges, with moss inspiring innovations in water capture, surface design, and low-energy systems.
 
 Biomimicry based on moss is a growing field because moss has evolved highly efficient solutions for water management, surface adhesion, and resilience with minimal resources.
 
 #### Biophilic Design
+
+<audio id="audio-biophilic" src="../audio/biophilic.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-biophilic').play()" class="pronounce-btn">🔊 Pronounce</button> *bye-oh-FIL-ik*
 
 An architectural and interior design approach that incorporates natural elements — including living plants, natural light, water features, and natural materials — to satisfy humans' innate need to connect with nature.
 
@@ -174,6 +186,9 @@ Browning is not always a sign of death — many mosses brown during dry or cold 
 
 #### Bryophytes
 
+<audio id="audio-bryophytes" src="../audio/bryophytes.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-bryophytes').play()" class="pronounce-btn">🔊 Pronounce</button> *BRY-oh-fytes*
+
 A group of non-vascular land plants comprising mosses, liverworts, and hornworts that share key traits including a dominant gametophyte generation, absence of vascular tissue, and spore-based reproduction.
 
 Bryophytes represent a major lineage of land plants and are studied together because of their shared evolutionary heritage and ecological roles.
@@ -191,6 +206,9 @@ Green roofs and living moss walls modify the building envelope by adding insulat
 ## Part 7 — Moss as Art and Expression
 
 #### Calyptra
+
+<audio id="audio-calyptra" src="../audio/calyptra.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-calyptra').play()" class="pronounce-btn">🔊 Pronounce</button> *kah-LIP-trah*
 
 A cap-like covering derived from the archegonium (female reproductive organ) that protects the developing spore capsule of a moss sporophyte during early growth.
 
@@ -326,6 +344,9 @@ Closed-loop ecosystems are essential for long-term space habitation, and mosses 
 
 #### Coevolution
 
+<audio id="audio-coevolution" src="../audio/coevolution.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-coevolution').play()" class="pronounce-btn">🔊 Pronounce</button> *koh-ev-oh-LOO-shun*
+
 The process by which two or more species exert selective pressures on each other over evolutionary time, driving reciprocal adaptations.
 
 Coevolution between mosses and their associated microorganisms may have shaped the nitrogen-fixing partnerships that are critical in nutrient-poor ecosystems.
@@ -446,6 +467,9 @@ In peatlands, the slow decomposition of *Sphagnum* relative to its growth rate i
 
 #### Desiccation Tolerance
 
+<audio id="audio-desiccation" src="../audio/desiccation.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-desiccation').play()" class="pronounce-btn">🔊 Pronounce</button> *des-ih-KAY-shun*
+
 The ability of certain moss species to survive the complete loss of cellular water, entering a dormant state and resuming normal metabolic function upon rehydration without permanent cellular damage.
 
 Desiccation tolerance is one of the most remarkable adaptations in the plant kingdom and is actively studied for potential applications in crop science and biotechnology.
@@ -459,6 +483,9 @@ A human-centered problem-solving approach that follows iterative phases of empat
 Design thinking encourages creative solutions to moss-related challenges by focusing on user needs and rapid experimentation.
 
 #### Dichotomous Key Basics
+
+<audio id="audio-dichotomous" src="../audio/dichotomous.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-dichotomous').play()" class="pronounce-btn">🔊 Pronounce</button> *dye-KOT-oh-mus*
 
 A step-by-step identification tool that presents a series of paired choices about an organism's features, each choice leading to a more specific identification until the species is determined.
 
@@ -606,6 +633,9 @@ Ethical harvesting is essential because wild moss populations recover slowly, an
 
 #### Evapotranspiration
 
+<audio id="audio-evapotranspiration" src="../audio/evapotranspiration.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-evapotranspiration').play()" class="pronounce-btn">🔊 Pronounce</button> *ee-VAP-oh-trans-pir-AY-shun*
+
 The combined process of water evaporation from surfaces and transpiration from plant tissues, returning water vapor to the atmosphere. Mosses contribute to evapotranspiration primarily through surface evaporation rather than stomatal transpiration.
 
 Understanding evapotranspiration helps explain how moss-covered surfaces cool their surroundings and contribute to local humidity.
@@ -709,6 +739,9 @@ Future urban design increasingly recognizes that cities must function as ecosyst
 ## Cross-Cutting Concepts
 
 #### Gametophyte
+
+<audio id="audio-gametophyte" src="../audio/gametophyte.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-gametophyte').play()" class="pronounce-btn">🔊 Pronounce</button> *gah-MEE-toh-fyte*
 
 The haploid, gamete-producing phase of a plant's life cycle, containing a single set of chromosomes. In mosses, the gametophyte is the dominant, visible green plant body.
 
@@ -875,6 +908,9 @@ Historical uses of moss demonstrate that long before scientific understanding, p
 **Example:** During World War I, *Sphagnum* moss was collected by the ton for use as surgical wound dressings because of its high absorbency and mild antiseptic properties.
 
 #### Hornworts
+
+<audio id="audio-hornworts" src="../audio/hornworts.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-hornworts').play()" class="pronounce-btn">🔊 Pronounce</button> *HORN-werts*
 
 A group of small, non-vascular bryophyte plants in the division Anthocerotophyta, characterized by a horn-shaped sporophyte that grows continuously from its base.
 
@@ -1085,6 +1121,9 @@ The process of systematically searching for, reading, and summarizing published 
 A literature review prevents duplicating existing research and helps students place their own investigations in the context of current scientific understanding.
 
 #### Liverworts
+
+<audio id="audio-liverworts" src="../audio/liverworts.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-liverworts').play()" class="pronounce-btn">🔊 Pronounce</button> *LIV-er-werts*
 
 A group of small, non-vascular bryophyte plants in the division Marchantiophyta, often recognized by their flat, lobed, or ribbon-like body form called a thallus.
 
@@ -1470,6 +1509,9 @@ Forests are the richest habitat for moss diversity in most temperate regions, an
 
 #### Moss in Ikebana
 
+<audio id="audio-ikebana" src="../audio/ikebana.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-ikebana').play()" class="pronounce-btn">🔊 Pronounce</button> *ik-eh-BAH-nah*
+
 The use of moss as an element in the Japanese art of flower arranging (ikebana), where it may serve as a base, accent, or symbol of the earth and the enduring in contrast to ephemeral flowers.
 
 In ikebana, moss represents permanence and the grounding force of nature, complementing the transient beauty of cut flowers.
@@ -1736,6 +1778,9 @@ Taking time to plan the layout and place each element carefully results in a mor
 
 #### Mossarium Definition
 
+<audio id="audio-mossarium" src="../audio/mossarium.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-mossarium').play()" class="pronounce-btn">🔊 Pronounce</button> *moss-AIR-ee-um*
+
 A glass or transparent container used to grow and display living mosses in a controlled indoor environment, creating a miniature self-contained landscape.
 
 Mossariums bring the calming beauty of moss indoors and serve as excellent teaching tools for understanding humidity, photosynthesis, and enclosed ecosystems.
@@ -1769,6 +1814,9 @@ A growing medium formulated for mossariums, typically consisting of a blend of p
 The ideal mossarium soil is acidic (pH 5.0-5.5), retains moisture evenly, and is well-draining to prevent stagnation.
 
 #### Mutualism
+
+<audio id="audio-mutualism" src="../audio/mutualism.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-mutualism').play()" class="pronounce-btn">🔊 Pronounce</button> *MYOO-choo-ah-liz-um*
 
 A symbiotic relationship in which both participating species benefit from the interaction.
 
@@ -1980,6 +2028,9 @@ Most mosses prefer acidic conditions (pH 5.0-6.0), so understanding pH is a prac
 
 #### Phenology
 
+<audio id="audio-phenology" src="../audio/phenology.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-phenology').play()" class="pronounce-btn">🔊 Pronounce</button> *feh-NOL-oh-jee*
+
 The study of the timing of recurring biological events — such as leafing out, flowering, spore release, and dormancy — in relation to seasonal and climatic conditions.
 
 Moss phenology is understudied compared to flowering plants, but changes in moss growth and reproduction timing may serve as sensitive indicators of climate change.
@@ -1999,6 +2050,9 @@ Moss photosynthesis contributes to global carbon cycling, and because mosses cov
 ## Part 2 — Types of Moss
 
 #### Phytoremediation
+
+<audio id="audio-phytoremediation" src="../audio/phytoremediation.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-phytoremediation').play()" class="pronounce-btn">🔊 Pronounce</button> *fye-toh-ree-MEE-dee-ay-shun*
 
 The use of plants, including mosses, to remove, stabilize, or break down pollutants from contaminated soil, water, or air, offering a low-cost, nature-based alternative to mechanical cleanup methods.
 
@@ -2021,6 +2075,9 @@ Studying plant evolution reveals that mosses branched off early in the land plan
 **Example:** Fossil evidence shows that ancient bryophyte-like plants were among the first to colonize bare rock surfaces over 450 million years ago.
 
 #### Pleurocarpous Moss
+
+<audio id="audio-pleurocarpous" src="../audio/pleurocarpous.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-pleurocarpous').play()" class="pronounce-btn">🔊 Pronounce</button> *ploor-oh-KAR-pus*
 
 Mosses that produce sporophytes along the sides of horizontal, creeping stems, typically forming spreading mats or carpets. They tend to grow faster and prefer moister conditions than acrocarpous mosses.
 
@@ -2077,6 +2134,9 @@ The skills of planning, organizing, and overseeing a project from start to finis
 Building a moss garden or conducting a semester-long moss experiment requires project management skills that transfer to academic and professional settings.
 
 #### Protonema
+
+<audio id="audio-protonema" src="../audio/protonema.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-protonema').play()" class="pronounce-btn">🔊 Pronounce</button> *pro-toh-NEE-mah*
 
 The initial thread-like or filamentous stage that develops when a moss spore germinates, resembling green algal filaments, which eventually gives rise to the leafy gametophyte plant.
 
@@ -2168,6 +2228,9 @@ Rewilding with moss can accelerate ecosystem recovery by providing ground cover,
 
 #### Rhizoids
 
+<audio id="audio-rhizoids" src="../audio/rhizoids.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-rhizoids').play()" class="pronounce-btn">🔊 Pronounce</button> *RYE-zoyds*
+
 Thread-like structures on the underside of a moss gametophyte that anchor the plant to its substrate. Unlike true roots, rhizoids do not absorb significant amounts of water or nutrients.
 
 Rhizoids are a common source of confusion; students often mistake them for roots, but their primary role is attachment, not absorption.
@@ -2253,6 +2316,9 @@ Sensory gardens are especially valuable for people with cognitive impairments, v
 ## Part 8 — Practical Skills and DIY
 
 #### Seta
+
+<audio id="audio-seta" src="../audio/seta.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-seta').play()" class="pronounce-btn">🔊 Pronounce</button> *SEE-tah*
 
 The slender stalk of the moss sporophyte that elevates the spore capsule above the gametophyte, improving spore dispersal by exposing the capsule to wind currents.
 
@@ -2370,6 +2436,9 @@ Selecting species native to your region and matched to your site conditions is t
 
 #### Sphagnum Moss
 
+<audio id="audio-sphagnum" src="../audio/sphagnum.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-sphagnum').play()" class="pronounce-btn">🔊 Pronounce</button> *SFAG-num*
+
 A genus of mosses (approximately 380 species) that dominate peatland and bog ecosystems, characterized by large water-holding cells, acidifying chemistry, and the ability to store enormous volumes of water.
 
 Sphagnum is ecologically the most important moss genus on Earth because peatlands built by Sphagnum store roughly one-third of the world's soil carbon.
@@ -2423,6 +2492,9 @@ This distinction explains why mosses are pioneer colonizers (spores travel far a
 **Example:** A dandelion seed contains a tiny embryo and food supply, while a moss spore is a single cell that must photosynthesize immediately upon germination.
 
 #### Sporophyte
+
+<audio id="audio-sporophyte" src="../audio/sporophyte.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-sporophyte').play()" class="pronounce-btn">🔊 Pronounce</button> *SPORE-oh-fyte*
 
 The diploid, spore-producing phase of a plant's life cycle, containing two sets of chromosomes. In mosses, the sporophyte is a small stalk and capsule that grows attached to and nutritionally dependent on the gametophyte.
 
@@ -2541,6 +2613,9 @@ Packaging materials designed to minimize environmental impact through biodegrada
 Moss-derived packaging materials could replace petroleum-based foam and plastic in applications where biodegradability is valued.
 
 #### Symbiotic Systems
+
+<audio id="audio-symbiotic" src="../audio/symbiotic.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-symbiotic').play()" class="pronounce-btn">🔊 Pronounce</button> *sim-bye-OT-ik*
 
 Close, long-term biological interactions between two or more different species, including mutualism, commensalism, and parasitism, observed in moss-microbe and moss-invertebrate relationships.
 
@@ -2669,6 +2744,9 @@ Engineered frameworks for growing plants on vertical surfaces, including modular
 Vertical garden systems make living walls practical by solving the engineering challenges of irrigation, drainage, and plant support on vertical surfaces.
 
 #### Wabi-Sabi Philosophy
+
+<audio id="audio-wabi-sabi" src="../audio/wabi-sabi.mp3" preload="none"></audio>
+<button onclick="document.getElementById('audio-wabi-sabi').play()" class="pronounce-btn">🔊 Pronounce</button> *WAH-bee SAH-bee*
 
 A Japanese aesthetic concept that finds beauty in imperfection, impermanence, and the natural cycle of growth and decay, deeply connected to the appreciation of moss in Japanese culture.
 
