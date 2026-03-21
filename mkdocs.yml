@@ -45,7 +45,15 @@ nav:
     - List of MicroSims: sims/index.md
     - Bryophyte Comparison MicroSim: sims/bryophyte-comparison/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Moss Cell Structure: sims/moss-cell-structure/index.md
+    - Moss Gametophyte Anatomy: sims/moss-gametophyte-anatomy/index.md
+    - Moss Sporophyte Structure: sims/moss-sporophyte-structure/index.md
+    - Plant Family Tree: sims/plant-family-tree/index.md
     - "Water Transport Comparison: Vascular Plant vs Moss": sims/water-transport-comparison/index.md
+
+
+
+
 
 
 
@@ -99,6 +107,13 @@ extra_css:
 
 extra_javascript:
   - js/extra.js
+  # This configuration file allows us to use the $ and $$ to specify and equation.
+  # We never use backslash due to conflict with the []() Markdown format
+  - js/mathjax-config.js
+  # For a Biology textbook we use chemistry equations
+  # We add the chemical markdown extension to MathJax
+  # It is not included in the default MathJax bundle, so we need to load the full TeX bundle
+  - https://unpkg.com/mathjax@3/es5/tex-chtml.js
 
 watch:
   - docs
@@ -106,6 +121,9 @@ watch:
 
 exclude_docs: |
   sims/bryophyte-comparison/image-prompt.md
+  sims/moss-cell-structure/image-prompt.md
+  sims/moss-gametophyte-anatomy/image-prompt.md
+  sims/moss-sporophyte-structure/image-prompt.md
 
 extra:
   generator: false
