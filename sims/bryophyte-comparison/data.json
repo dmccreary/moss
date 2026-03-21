@@ -1,0 +1,96 @@
+{
+  "title": "The Three Bryophytes: Mosses, Liverworts, and Hornworts",
+  "orientation": "landscape",
+  "image": "three-bryophytes-chatgpt.png",
+  "callouts": [
+    {
+      "id": 2,
+      "label": "Sporophyte (Capsule)",
+      "x": 18.7,
+      "y": 23.7,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A tall thin brown stalk topped with a small capsule, rising above the green leafy moss.",
+      "description": "The sporophyte is the spore-producing structure. It grows on top of the gametophyte and depends on it for nutrition. The capsule at the tip contains thousands of spores that are released into the wind when mature. The sporophyte is diploid (two sets of chromosomes).",
+      "panel": "left"
+    },
+    {
+      "id": 1,
+      "label": "Moss Gametophyte",
+      "x": 7.7,
+      "y": 39.8,
+      "radius": 5,
+      "color": "#2ECC71",
+      "hint": "Small upright green plants with tiny overlapping leaves, growing in a cushion cluster in the left panel.",
+      "description": "The leafy green moss plant is the gametophyte — the dominant life stage. Unlike vascular plants, the moss gametophyte is haploid (one set of chromosomes). It photosynthesizes, absorbs water externally, and produces the sex cells that lead to fertilization.",
+      "panel": "left"
+    },
+    {
+      "id": 4,
+      "label": "Moss Leaves",
+      "x": 5,
+      "y": 47.5,
+      "radius": 3.5,
+      "color": "#3498DB",
+      "hint": "Tiny overlapping green structures spiraling around the upright moss stems.",
+      "description": "Moss leaves are typically just one cell thick (except at the midrib in some species). Despite their simplicity, they are highly efficient at photosynthesis and water absorption. Their small size minimizes water loss while maximizing surface area relative to volume.",
+      "panel": "left"
+    },
+    {
+      "id": 3,
+      "label": "Rhizoids",
+      "x": 12.4,
+      "y": 61.2,
+      "radius": 3.5,
+      "color": "#E67E22",
+      "hint": "Fine thread-like strands extending from the base of the moss into the soil.",
+      "description": "Rhizoids are hair-like filaments that anchor moss to its substrate. Unlike true roots, rhizoids do NOT absorb water or nutrients — they serve only as anchors. Moss absorbs water across its entire surface through capillary action.",
+      "panel": "left"
+    },
+    {
+      "id": 6,
+      "label": "Gemmae Cups",
+      "x": 41.8,
+      "y": 49.3,
+      "radius": 3.5,
+      "color": "#F39C12",
+      "hint": "Small cup-shaped structures sitting on the upper surface of the flat green liverwort.",
+      "description": "Gemmae cups are tiny splash cups that contain gemmae — small clumps of cells that can grow into new liverwort plants. When a raindrop hits a gemmae cup, it splashes the gemmae out, dispersing them to new locations. This is a form of asexual reproduction unique to liverworts.",
+      "panel": "left"
+    },
+    {
+      "id": 5,
+      "label": "Liverwort Thallus",
+      "x": 38.5,
+      "y": 59,
+      "radius": 5,
+      "color": "#1ABC9C",
+      "hint": "A flat, ribbon-like green body growing horizontally in the center panel, with a branching lobed pattern.",
+      "description": "The liverwort thallus is a flat, ribbon-shaped body that grows horizontally along the ground. The name 'liverwort' comes from the Old English word for liver, because the lobed shape was thought to resemble a human liver. Liverworts are bryophytes like moss but lack distinct stems and leaves.",
+      "panel": "left"
+    },
+    {
+      "id": 8,
+      "label": "Horn-Shaped Sporophyte",
+      "x": 89.6,
+      "y": 29.1,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "Tall, thin, horn-like structures rising vertically from the center of the rosette in the right panel.",
+      "description": "The hornwort's namesake feature: tall, slender sporophytes that look like horns. Unlike moss sporophytes, hornwort sporophytes can continue growing from the base throughout their lives and split open from the tip downward to release spores. This continuous growth is unique among bryophytes.",
+      "panel": "right"
+    },
+    {
+      "id": 7,
+      "label": "Hornwort Thallus",
+      "x": 83.3,
+      "y": 63.2,
+      "radius": 5,
+      "color": "#2ECC71",
+      "hint": "A circular rosette of flat, dark green lobes at the base of the right panel.",
+      "description": "The hornwort thallus is a flat, circular rosette of lobed green tissue. Like liverworts, hornworts grow flat against the ground. Unlike mosses, hornworts have a single large chloroplast per cell (most plants have many small chloroplasts). Hornworts often host nitrogen-fixing cyanobacteria inside their tissues.",
+      "panel": "right"
+    }
+  ],
+  "layout": "dual-panel"
+}

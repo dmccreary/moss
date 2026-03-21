@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Plant Family Tree</title>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="network"></div>
+
+        <div class="title">Plant Family Tree</div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #9e9e9e;"></div>
+                <span>Ancestor</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #4caf50;"></div>
+                <span>Bryophytes</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #66bb6a;"></div>
+                <span>Ferns</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #5d4037;"></div>
+                <span>Gymnosperms</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background-color: #e91e63;"></div>
+                <span>Angiosperms</span>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="controls">
+                <button class="btn btn-primary" id="highlight-moss-btn">Highlight Moss</button>
+                <button class="btn btn-secondary" id="reset-btn">Reset</button>
+            </div>
+
+            <div class="status-info" id="status-info">
+                <div class="status-title" id="status-title">Plant Evolutionary Tree</div>
+                <div class="status-text" id="status-text">
+                    Click any node to learn more about that plant group. Hover over edges to see evolutionary innovations.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="plant-family-tree.js"></script>
+</body>
+</html>

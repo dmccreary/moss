@@ -1,0 +1,78 @@
+{
+  "title": "Moss Cell Structure",
+  "orientation": "landscape",
+  "image": "moss-cell-diagram.png",
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Cell Wall",
+      "x": 82.3,
+      "y": 14.1,
+      "radius": 4,
+      "color": "#34495E",
+      "hint": "The thick tan border forming the outermost boundary of the cell.",
+      "description": "A rigid outer layer made of cellulose that gives the cell its shape and provides structural support. Unlike animal cells, all plant cells including moss have a cell wall."
+    },
+    {
+      "id": 2,
+      "label": "Cell Membrane",
+      "x": 87.2,
+      "y": 24,
+      "radius": 3.5,
+      "color": "#E67E22",
+      "hint": "The thin golden-yellow line just inside the cell wall.",
+      "description": "A selectively permeable phospholipid bilayer that controls what enters and exits the cell. In moss, the cell membrane is especially important because the entire plant surface absorbs water and nutrients directly."
+    },
+    {
+      "id": 3,
+      "label": "Central Vacuole",
+      "x": 59.2,
+      "y": 36.1,
+      "radius": 5,
+      "color": "#1ABC9C",
+      "hint": "The large pale blue region occupying most of the cell's interior.",
+      "description": "A large fluid-filled compartment that stores water, nutrients, and waste products. In moss cells the vacuole can occupy up to 90% of cell volume, helping maintain turgor pressure that keeps the plant upright."
+    },
+    {
+      "id": 4,
+      "label": "Nucleus",
+      "x": 29.2,
+      "y": 44.6,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "The dark purple circular structure pressed between the vacuole and cell wall.",
+      "description": "The control center of the cell containing DNA organized into chromosomes. The nucleus directs protein synthesis and cell division. The smaller, darker structure visible inside is the nucleolus, which produces ribosomal RNA."
+    },
+    {
+      "id": 5,
+      "label": "Chloroplasts",
+      "x": 84.9,
+      "y": 60.6,
+      "radius": 4,
+      "color": "#2ECC71",
+      "hint": "The bright green lens-shaped ovals distributed around the cell edges.",
+      "description": "Organelles containing chlorophyll that carry out photosynthesis, converting light energy, CO₂, and water into glucose and oxygen. Moss leaf cells are often just one cell thick, so every chloroplast gets direct access to sunlight — a key efficiency advantage."
+    },
+    {
+      "id": 6,
+      "label": "Endoplasmic Reticulum",
+      "x": 26.9,
+      "y": 64.1,
+      "radius": 3.5,
+      "color": "#9B59B6",
+      "hint": "The network of folded purple-pink membranes extending from the nucleus.",
+      "description": "A system of folded membranes extending from the nuclear envelope. Rough ER (studded with ribosomes) synthesizes proteins; smooth ER produces lipids. Works closely with the nucleus to manufacture the molecules the cell needs."
+    },
+    {
+      "id": 7,
+      "label": "Cytoplasm",
+      "x": 43.6,
+      "y": 76.6,
+      "radius": 3.5,
+      "color": "#F39C12",
+      "hint": "The pale yellow-green granular material filling space between organelles.",
+      "description": "The gel-like fluid (cytosol) filling the cell interior where metabolic reactions occur. Contains dissolved enzymes, ions, and small molecules, along with the cytoskeleton that gives the cell internal structure."
+    }
+  ],
+  "layout": "side-panel"
+}

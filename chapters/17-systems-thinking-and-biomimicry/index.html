@@ -1,0 +1,2196 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Advanced analytical frameworks for studying moss — including systems thinking, feedback loops, emergent properties, biomimicry, bio-inspired design, and rigorous data collection methods from experimental design to citizen science.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/moss/chapters/17-systems-thinking-and-biomimicry/">
+      
+      
+        <link rel="prev" href="../16-moss-in-education/">
+      
+      
+        <link rel="next" href="../18-ai-simulation-and-technology/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Systems Thinking, Biomimicry, and Data Collection - Moss</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta property="og:type" content="website">
+      
+        <meta property="og:title" content="Systems Thinking, Biomimicry, and Data Collection - Moss">
+      
+        <meta property="og:description" content="Advanced analytical frameworks for studying moss — including systems thinking, feedback loops, emergent properties, biomimicry, bio-inspired design, and rigorous data collection methods from experimental design to citizen science.">
+      
+        <meta property="og:image" content="https://dmccreary.github.io/moss/assets/images/social/chapters/17-systems-thinking-and-biomimicry/index.png">
+      
+        <meta property="og:image:type" content="image/png">
+      
+        <meta property="og:image:width" content="1200">
+      
+        <meta property="og:image:height" content="630">
+      
+        <meta property="og:url" content="https://dmccreary.github.io/moss/chapters/17-systems-thinking-and-biomimicry/">
+      
+        <meta name="twitter:card" content="summary_large_image">
+      
+        <meta name="twitter:title" content="Systems Thinking, Biomimicry, and Data Collection - Moss">
+      
+        <meta name="twitter:description" content="Advanced analytical frameworks for studying moss — including systems thinking, feedback loops, emergent properties, biomimicry, bio-inspired design, and rigorous data collection methods from experimental design to citizen science.">
+      
+        <meta name="twitter:image" content="https://dmccreary.github.io/moss/assets/images/social/chapters/17-systems-thinking-and-biomimicry/index.png">
+      
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="white">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-17-systems-thinking-biomimicry-and-data-collection" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Moss" class="md-header__button md-logo" aria-label="Moss" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Moss
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Systems Thinking, Biomimicry, and Data Collection
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/moss" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Moss" class="md-nav__button md-logo" aria-label="Moss" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    Moss
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/moss" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../draft-outline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Draft Outline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-scientific-foundations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Scientific Foundations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-ecology-and-conservation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Ecology and Conservation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-what-is-moss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. What Is Moss?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-moss-anatomy-and-life-cycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4. Moss Anatomy and Life Cycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-moss-types-and-identification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5. Moss Types and Identification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-water-climate-and-moss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6. Water, Climate, and Moss
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-moss-ecology-and-ecosystems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7. Moss Ecology and Ecosystems
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08-harvesting-and-propagation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    8. Harvesting and Propagation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09-troubleshooting-and-equipment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    9. Troubleshooting and Equipment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-designing-a-moss-garden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    10. Designing a Moss Garden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-garden-styles-and-alternatives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    11. Garden Styles and Alternatives
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../12-building-a-mossarium/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    12. Building a Mossarium
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../13-indoor-moss-and-biophilic-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    13. Indoor Moss and Biophilic Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../14-moss-in-architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    14. Moss in Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../15-moss-as-art-and-culture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    15. Moss as Art and Culture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../16-moss-in-education/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    16. Moss in Education
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    17. Systems Thinking and Biomimicry
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    17. Systems Thinking and Biomimicry
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 1: Systems Thinking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Systems Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Systems Thinking?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feedback Loops
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emergent-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emergent Properties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distributed-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distributed Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resilience-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resilience Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-resource-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low-Resource Optimization
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-biomimicry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 2: Biomimicry
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2: Biomimicry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-biomimicry" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Biomimicry?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-capture-strategies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Capture Strategies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surface Optimization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-design-lessons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passive Design Lessons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bio-inspired-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bio-Inspired Materials
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-data-collection-and-the-scientific-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 3: Data Collection and the Scientific Method
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3: Data Collection and the Scientific Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scientific-method-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scientific Method Review
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypothesis-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hypothesis Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#growth-rate-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Growth Rate Measurement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moisture-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moisture Sensors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-collection-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Collection Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Visualization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistical Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizen-science-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Citizen Science Projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-the-three-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connecting the Three Themes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../18-ai-simulation-and-technology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    18. AI, Simulation, and Technology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../19-the-future-of-moss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    19. The Future of Moss
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../20-capstone/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    20. Capstone
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/common-terms/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-1-systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 1: Systems Thinking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Systems Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-systems-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Systems Thinking?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback-loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feedback Loops
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emergent-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Emergent Properties
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distributed-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distributed Systems
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resilience-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resilience Patterns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-resource-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low-Resource Optimization
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2-biomimicry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 2: Biomimicry
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2: Biomimicry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-biomimicry" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Biomimicry?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#water-capture-strategies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Capture Strategies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Surface Optimization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passive-design-lessons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passive Design Lessons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bio-inspired-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bio-Inspired Materials
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-data-collection-and-the-scientific-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 3: Data Collection and the Scientific Method
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 3: Data Collection and the Scientific Method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scientific-method-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scientific Method Review
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hypothesis-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hypothesis Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#growth-rate-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Growth Rate Measurement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moisture-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Moisture Sensors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-collection-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Collection Methods
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Visualization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistical Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizen-science-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Citizen Science Projects
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-the-three-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connecting the Three Themes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/moss/blob/master/docs/chapters/17-systems-thinking-and-biomimicry/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="chapter-17-systems-thinking-biomimicry-and-data-collection">Chapter 17: Systems Thinking, Biomimicry, and Data Collection</h1>
+<h2 id="summary">Summary</h2>
+<p>This chapter introduces advanced analytical frameworks for studying moss. Students learn systems thinking concepts including feedback loops, emergent properties, distributed systems, and resilience patterns. The chapter covers biomimicry and bio-inspired design, then transitions to data collection methods, experimental design, moisture sensors, citizen science projects, and the iNaturalist platform.</p>
+<h2 id="concepts-covered">Concepts Covered</h2>
+<p>This chapter covers the following 20 concepts from the learning graph:</p>
+<ol>
+<li>Systems Thinking</li>
+<li>Distributed Systems</li>
+<li>Resilience Patterns</li>
+<li>Low-Resource Optimization</li>
+<li>Feedback Loops</li>
+<li>Emergent Properties</li>
+<li>Biomimicry</li>
+<li>Water Capture Strategies</li>
+<li>Surface Optimization</li>
+<li>Passive Design Lessons</li>
+<li>Bio-Inspired Materials</li>
+<li>Growth Rate Measurement</li>
+<li>Moisture Sensors</li>
+<li>Data Collection Methods</li>
+<li>Experimental Design</li>
+<li>Scientific Method Review</li>
+<li>Hypothesis Testing</li>
+<li>Data Visualization</li>
+<li>Statistical Analysis</li>
+<li>Citizen Science Projects</li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>This chapter builds on concepts from:</p>
+<ul>
+<li><a href="../07-moss-ecology-and-ecosystems/">Chapter 7: Moss Ecology and Ecosystems</a></li>
+<li><a href="../01-scientific-foundations/">Chapter 1: Scientific Foundations and Prerequisites</a></li>
+</ul>
+<hr>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Mossby Says: Let's Hop To It!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/welcome.png" data-desc-position="bottom"><img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Mossby welcomes you"></a>
+Welcome back, explorers! This chapter is where we zoom out and
+see the big picture. Moss is not just a plant — it is a system,
+an engineer, and a data goldmine. I'm lichen this topic already!</p>
+</div>
+<p>Up to this point, you have studied moss at the level of individual plants, species, and gardens. This chapter asks you to shift perspective. Instead of looking <em>at</em> moss, we look <em>through</em> moss — using it as a lens to understand systems thinking, biomimicry, and the scientific method itself.</p>
+<p>These are not abstract academic exercises. Systems thinking helps you understand why moss colonies behave as they do. Biomimicry reveals how engineers and designers copy moss's strategies to solve human problems. And rigorous data collection turns your observations from casual impressions into genuine scientific knowledge.</p>
+<h2 id="part-1-systems-thinking">Part 1: Systems Thinking</h2>
+<h3 id="what-is-systems-thinking">What Is Systems Thinking?</h3>
+<p><strong>Systems thinking</strong> is a way of understanding the world that focuses on relationships, patterns, and wholes rather than isolated parts. Instead of asking "What does this piece do?", a systems thinker asks "How do all the pieces interact?" and "What happens when one piece changes?"</p>
+<p>A moss colony is a perfect example of a system. No single moss plant controls the colony. There is no central root system, no dominant stem, no command structure. Yet the colony functions as a coordinated whole — retaining water, stabilizing soil, moderating temperature, and creating habitat for dozens of other organisms.</p>
+<p>Three core principles of systems thinking apply directly to moss:</p>
+<ol>
+<li><strong>Interconnection</strong> — Every element in a system is connected to others. In a moss colony, individual plants are physically intertwined, sharing water through capillary networks.</li>
+<li><strong>Emergence</strong> — The system as a whole displays properties that no individual part possesses. A single moss plant cannot retain significant water; a colony of thousands can hold 20 times its dry weight.</li>
+<li><strong>Feedback</strong> — Systems regulate themselves through feedback loops. Moss colonies create their own microclimate (retaining moisture, moderating temperature), which in turn supports their own survival.</li>
+</ol>
+<h3 id="feedback-loops">Feedback Loops</h3>
+<p>A <strong>feedback loop</strong> occurs when the output of a system circles back to influence the input. There are two types:</p>
+<p><strong>Positive feedback loops</strong> amplify change. When a moss colony grows, it retains more moisture, which makes the environment more favorable for further growth, which causes more growth. This is a positive feedback loop — growth promotes growth. Positive feedback drives rapid expansion when conditions are favorable.</p>
+<p><strong>Negative feedback loops</strong> dampen change and promote stability. As a moss colony becomes denser, competition for light increases. Plants at the bottom of the colony receive less light, grow more slowly, and eventually decompose. This natural thinning prevents the colony from becoming so dense that it collapses under its own weight. The system self-corrects.</p>
+<p>Both types of feedback operate simultaneously in any moss ecosystem:</p>
+<table>
+<thead>
+<tr>
+<th>Feedback Type</th>
+<th>Example in Moss</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Positive</td>
+<td>More moss retains more water, supporting more growth</td>
+<td>Expansion</td>
+</tr>
+<tr>
+<td>Positive</td>
+<td>Moss traps windblown particles, building soil, enabling more moss</td>
+<td>Colonization</td>
+</tr>
+<tr>
+<td>Negative</td>
+<td>Dense growth reduces light to lower layers, slowing growth</td>
+<td>Self-thinning</td>
+</tr>
+<tr>
+<td>Negative</td>
+<td>Thick moss mat insulates soil, reducing evaporation but also limiting gas exchange</td>
+<td>Equilibrium</td>
+</tr>
+</tbody>
+</table>
+<h3 id="emergent-properties">Emergent Properties</h3>
+<p>An <strong>emergent property</strong> is a characteristic that appears at the system level but does not exist at the level of individual components. You cannot predict it by studying a single part in isolation.</p>
+<p>Moss colonies display several emergent properties:</p>
+<ul>
+<li><strong>Water retention at scale</strong> — A single moss plant holds a tiny amount of water. A colony of ten thousand plants holds an enormous amount, functioning like a living sponge. This property emerges from the physical arrangement of overlapping leaves and tightly packed stems creating capillary spaces.</li>
+<li><strong>Temperature buffering</strong> — A moss carpet moderates temperature swings, keeping the surface below it cooler in summer and warmer in winter. No individual plant achieves this; it requires the collective insulation of thousands.</li>
+<li><strong>Soil formation</strong> — Over time, a moss colony traps mineral particles, accumulates organic matter from its own decomposing lower layers, and builds soil. This soil then supports other plants. The moss colony has created something — soil — that no individual plant could produce.</li>
+</ul>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/thinking.png" data-desc-position="bottom"><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Mossby is thinking"></a>
+Emergence is everywhere in nature — a single neuron cannot think, but
+a brain can. A single moss plant cannot regulate temperature, but a
+colony can. The lesson? Sometimes the whole is genuinely greater than
+the sum of its parts. That's un-frog-ettable!</p>
+</div>
+<h3 id="distributed-systems">Distributed Systems</h3>
+<p>A <strong>distributed system</strong> has no central controller. Instead, each component follows simple local rules, and complex global behavior emerges from the interaction of many independent agents.</p>
+<p>Moss colonies are distributed systems. No individual plant directs colony growth, water distribution, or reproduction timing. Each plant responds to its own local environment — absorbing water when it is available, photosynthesizing when light reaches its leaves, and producing spores when conditions are right. The colony-level patterns (uniform green carpets, expansion toward water sources, retreat from dry zones) emerge from thousands of individual responses aggregated across space and time.</p>
+<p>This concept connects to many fields beyond biology:</p>
+<ul>
+<li><strong>Computer science</strong> — The internet is a distributed system. No single server controls it.</li>
+<li><strong>Economics</strong> — A market economy is a distributed system. Prices emerge from millions of individual transactions.</li>
+<li><strong>Urban planning</strong> — Pedestrian flow in a city is a distributed system. No one directs foot traffic, yet recognizable patterns emerge.</li>
+</ul>
+<p>Understanding moss as a distributed system helps you see it not as a passive carpet but as an active, adaptive network.</p>
+<h3 id="resilience-patterns">Resilience Patterns</h3>
+<p><strong>Resilience</strong> is a system's ability to absorb disturbance and reorganize while maintaining its essential functions. Moss colonies demonstrate remarkable resilience through several strategies:</p>
+<ul>
+<li><strong>Desiccation tolerance</strong> — Many moss species can lose 95-98% of their water content, enter a dormant state, and fully recover when water returns. This is not damage followed by repair; it is a controlled shutdown and restart.</li>
+<li><strong>Redundancy</strong> — Because every plant in a colony is functionally equivalent, losing some plants does not cripple the system. The remaining plants continue all functions.</li>
+<li><strong>Fragmentation and regrowth</strong> — A moss colony torn apart by disturbance (foot traffic, flooding, animal activity) can regenerate from fragments. Each piece carries the genetic information and cellular machinery needed to start a new colony.</li>
+<li><strong>Flexible resource allocation</strong> — In drought, moss redirects metabolic activity to survival mode. In abundance, it invests in growth and reproduction. This flexibility allows it to persist through wildly variable conditions.</li>
+</ul>
+<h3 id="low-resource-optimization">Low-Resource Optimization</h3>
+<p>Moss is a master of <strong>low-resource optimization</strong> — achieving survival and reproduction with minimal inputs. It has no roots to mine deep soil nutrients, no vascular system to transport water long distances, and no flowers to attract pollinators. Yet it thrives worldwide.</p>
+<p>Key optimization strategies include:</p>
+<ul>
+<li><strong>Nutrient capture from air</strong> — Moss absorbs dissolved minerals from rainwater and airborne dust, bypassing the need for soil nutrients</li>
+<li><strong>Efficient photosynthesis at low light</strong> — Many moss species photosynthesize effectively in deep shade where vascular plants cannot survive</li>
+<li><strong>Water conservation through dormancy</strong> — Rather than maintaining costly metabolic activity during drought, moss shuts down entirely and waits</li>
+<li><strong>Minimal structural investment</strong> — Without woody stems or deep roots, moss devotes nearly all its energy to photosynthesis and reproduction</li>
+</ul>
+<p>Engineers call this kind of design philosophy "lean" — achieving maximum function with minimum material. Moss has been doing it for 450 million years.</p>
+<h2 id="part-2-biomimicry">Part 2: Biomimicry</h2>
+<h3 id="what-is-biomimicry">What Is Biomimicry?</h3>
+<p><strong>Biomimicry</strong> is the practice of learning from nature's strategies to solve human design challenges. Rather than extracting resources from nature, biomimicry asks: "What would nature do?" and applies the answer to engineering, architecture, materials science, and product design.</p>
+<p>Moss offers several biomimicry opportunities because it has evolved elegant solutions to problems that engineers also face: capturing water from air, optimizing surfaces for absorption, and functioning without active energy systems.</p>
+<h3 id="water-capture-strategies">Water Capture Strategies</h3>
+<p>Moss captures water without pumps, pipes, or energy input. Its <strong>water capture strategies</strong> rely on physical structure:</p>
+<ul>
+<li><strong>Leaf geometry</strong> — Many moss leaves are concave, cupping water droplets and channeling them toward the stem</li>
+<li><strong>Capillary spaces</strong> — The gaps between tightly packed leaves and stems create capillary channels that draw water inward</li>
+<li><strong>Surface texture</strong> — Microscopic papillae (bumps) on moss leaf surfaces increase surface area and promote water adhesion</li>
+</ul>
+<p>Engineers have mimicked these strategies in:</p>
+<ul>
+<li><strong>Fog-harvesting nets</strong> — Mesh structures inspired by moss (and other organisms) capture water from fog in arid coastal regions</li>
+<li><strong>Self-filling water bottles</strong> — Prototype designs use surface textures inspired by moss and beetle shells to condense atmospheric moisture</li>
+<li><strong>Green roof substrates</strong> — Materials designed to retain rainwater borrow the capillary-space principle from moss colonies</li>
+</ul>
+<h3 id="surface-optimization">Surface Optimization</h3>
+<p><strong>Surface optimization</strong> in moss refers to the way moss maximizes functional surface area within a minimal volume. A single moss leaf is incredibly thin (often just one cell thick), presenting maximum photosynthetic surface area to light. At the colony level, thousands of tiny leaves create an enormous total surface area packed into a carpet just a few centimeters tall.</p>
+<p>This principle inspires designs in:</p>
+<ul>
+<li><strong>Solar panel arrays</strong> — Micro-textured surfaces that capture light from multiple angles, inspired by the way moss leaf arrangements maximize light interception</li>
+<li><strong>Heat exchangers</strong> — Devices that maximize surface area for thermal transfer, analogous to the way moss maximizes surface area for water absorption</li>
+<li><strong>Air filtration systems</strong> — Filters with complex surface geometries that trap particles efficiently, inspired by moss's ability to capture airborne pollutants</li>
+</ul>
+<h3 id="passive-design-lessons">Passive Design Lessons</h3>
+<p>Moss operates entirely on <strong>passive design</strong> — it uses no active energy to move water, regulate temperature, or distribute nutrients. Everything happens through physical principles: capillary action, diffusion, evaporation, and gravity.</p>
+<p><strong>Passive design lessons</strong> from moss for human architecture and engineering include:</p>
+<ul>
+<li><strong>Passive cooling</strong> — A moss-covered surface stays cooler through evaporative cooling, the same principle behind passive cooling strategies in building design</li>
+<li><strong>Passive water management</strong> — Moss absorbs, stores, and slowly releases water without pumps. Green roofs and rain gardens apply this principle at the building and neighborhood scale</li>
+<li><strong>Passive air purification</strong> — Moss absorbs pollutants from air through its leaf surfaces. Moss walls in buildings provide air quality improvement without mechanical filtration</li>
+<li><strong>Passive insulation</strong> — A layer of moss provides thermal insulation, reducing heat transfer between the environment and the surface below it</li>
+</ul>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Key Insight</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/thinking.png" data-desc-position="bottom"><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Mossby is thinking"></a>
+Passive design is not lazy design — it is brilliant design. Moss
+moves water without a pump, cleans air without a filter, and
+insulates without fiberglass. Engineers spend millions trying to
+achieve what moss does for free. Let's moss-ey on!</p>
+</div>
+<h3 id="bio-inspired-materials">Bio-Inspired Materials</h3>
+<p><strong>Bio-inspired materials</strong> take structural or chemical cues from biological organisms. Moss has inspired research into:</p>
+<ul>
+<li><strong>Super-absorbent polymers</strong> — Materials that mimic moss's ability to absorb and retain many times their weight in water, used in agriculture, wound dressings, and diapers</li>
+<li><strong>Self-healing coatings</strong> — Surfaces that repair minor damage autonomously, inspired by moss's ability to regenerate from fragments</li>
+<li><strong>Lightweight structural materials</strong> — Foams and lattices that achieve strength with minimal material, echoing moss's strategy of maximizing function with minimal structural investment</li>
+<li><strong>Biodegradable packaging</strong> — Materials designed to break down safely in the environment, informed by the way moss and other bryophytes decompose into soil</li>
+</ul>
+<p>The field of bio-inspired materials is growing rapidly. As manufacturing moves toward sustainability, designers increasingly look to organisms like moss that have solved resource-efficiency problems over evolutionary timescales.</p>
+<h2 id="part-3-data-collection-and-the-scientific-method">Part 3: Data Collection and the Scientific Method</h2>
+<h3 id="scientific-method-review">Scientific Method Review</h3>
+<p>The <strong>scientific method</strong> is the systematic process by which scientists investigate the natural world. While you learned this framework in Chapter 1, applying it to moss research requires specific skills:</p>
+<ol>
+<li><strong>Observation</strong> — Notice a pattern in moss behavior (e.g., moss grows thicker on the north side of trees)</li>
+<li><strong>Question</strong> — Formulate a specific, testable question (e.g., "Does moss grow faster in shade than in direct sunlight?")</li>
+<li><strong>Hypothesis</strong> — Propose a tentative explanation that can be tested (e.g., "If moss is shade-adapted, then moss in shaded conditions will show greater growth over 30 days than moss in direct sunlight")</li>
+<li><strong>Experiment</strong> — Design and conduct a controlled test</li>
+<li><strong>Analysis</strong> — Collect, organize, and interpret data</li>
+<li><strong>Conclusion</strong> — Determine whether the data support or refute the hypothesis</li>
+<li><strong>Communication</strong> — Share methods, results, and conclusions with others</li>
+</ol>
+<h3 id="experimental-design">Experimental Design</h3>
+<p>Rigorous <strong>experimental design</strong> is what separates a casual observation from a scientific investigation. Key elements include:</p>
+<ul>
+<li><strong>Independent variable</strong> — The factor you deliberately change (e.g., light level, pH, moisture frequency)</li>
+<li><strong>Dependent variable</strong> — The factor you measure as a response (e.g., growth rate, color, spore production)</li>
+<li><strong>Controlled variables</strong> — Factors held constant to ensure a fair test (e.g., temperature, moss species, substrate type)</li>
+<li><strong>Control group</strong> — A baseline condition against which you compare experimental results</li>
+<li><strong>Replication</strong> — Multiple samples per treatment to account for natural variation</li>
+<li><strong>Randomization</strong> — Assigning samples to treatments randomly to reduce bias</li>
+</ul>
+<p>A well-designed moss experiment might look like this:</p>
+<p><strong>Research question:</strong> Does watering frequency affect moss growth rate?</p>
+<p><strong>Design:</strong></p>
+<ul>
+<li>Independent variable: Watering frequency (daily, every 3 days, weekly)</li>
+<li>Dependent variable: Area covered after 30 days (measured in cm<span class="arithmatex">\(^2\)</span>)</li>
+<li>Controlled variables: Moss species (<em>Hypnum cupressiforme</em>), substrate (potting soil), light (indirect, 8 hours/day), temperature (20-22 degrees C)</li>
+<li>Replication: 5 samples per treatment (15 total)</li>
+<li>Measurement: Photograph each sample weekly from the same distance, then measure the green area using image analysis software</li>
+</ul>
+<h3 id="hypothesis-testing">Hypothesis Testing</h3>
+<p><strong>Hypothesis testing</strong> is the formal statistical process of determining whether observed differences are likely real or simply due to random chance. The basic framework uses two competing hypotheses:</p>
+<ul>
+<li><strong>Null hypothesis</strong> (<span class="arithmatex">\(H_0\)</span>) — There is no difference between groups. Any observed difference is due to random variation.</li>
+<li><strong>Alternative hypothesis</strong> (<span class="arithmatex">\(H_a\)</span>) — There is a real difference between groups.</li>
+</ul>
+<p>You collect data, calculate a test statistic, and determine a <strong>p-value</strong> — the probability of observing your results (or more extreme results) if the null hypothesis were true. By convention:</p>
+<ul>
+<li>If <span class="arithmatex">\(p &lt; 0.05\)</span>, the result is <strong>statistically significant</strong>, and you reject the null hypothesis</li>
+<li>If <span class="arithmatex">\(p \geq 0.05\)</span>, the result is <strong>not statistically significant</strong>, and you fail to reject the null hypothesis</li>
+</ul>
+<p>For moss growth experiments with small sample sizes, the <strong>t-test</strong> (comparing two groups) or <strong>ANOVA</strong> (comparing three or more groups) are appropriate statistical tests.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Watch Your Step!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/warning.png" data-desc-position="bottom"><img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Mossby warns you"></a>
+Statistical significance does not mean biological importance!
+A difference can be statistically significant but too small to
+matter in the real world. Always pair your p-value with the
+actual size of the effect. Don't let numbers frog you up!</p>
+</div>
+<h3 id="growth-rate-measurement">Growth Rate Measurement</h3>
+<p><strong>Growth rate measurement</strong> is fundamental to many moss experiments. Because moss grows slowly compared to vascular plants, accurate measurement requires patience and precision.</p>
+<p>Common methods include:</p>
+<ul>
+<li><strong>Linear extension</strong> — Measure the length of individual stems at regular intervals using calipers or a ruler with millimeter graduations. Express growth as mm per week or mm per month.</li>
+<li><strong>Area coverage</strong> — Photograph the colony from directly above at fixed intervals. Use image analysis software (such as ImageJ, which is free) to measure the total green area in each photograph. Express growth as cm<span class="arithmatex">\(^2\)</span> per week.</li>
+<li><strong>Biomass</strong> — Harvest, dry, and weigh moss samples at the start and end of an experiment. Express growth as change in dry mass (mg). Note that this method is destructive — you cannot measure the same sample twice.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Precision</th>
+<th>Effort</th>
+<th>Destructive?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linear extension</td>
+<td>High</td>
+<td>Low</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Area coverage</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Biomass (dry weight)</td>
+<td>High</td>
+<td>High</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="moisture-sensors">Moisture Sensors</h3>
+<p><strong>Moisture sensors</strong> are electronic devices that measure the water content of soil or substrate. In moss research, they provide continuous, objective data that supplements visual observation.</p>
+<p>Types of moisture sensors relevant to moss study:</p>
+<ul>
+<li><strong>Capacitive sensors</strong> — Measure the dielectric constant of the substrate, which changes with water content. Inexpensive, durable, and compatible with data loggers. Models like the Adafruit STEMMA soil sensor connect to Arduino or Raspberry Pi for automated logging.</li>
+<li><strong>Resistive sensors</strong> — Measure electrical resistance between two probes. Cheaper than capacitive sensors but less durable and prone to corrosion.</li>
+<li><strong>Tensiometers</strong> — Measure soil water tension (how tightly the substrate holds onto water). More relevant for vascular plants than for moss, but useful in mixed-planting studies.</li>
+</ul>
+<p>For a moss experiment, a capacitive sensor connected to a microcontroller can record substrate moisture every 15 minutes, generating a dataset that reveals how quickly moss dries out, how watering events affect moisture, and how ambient conditions (temperature, humidity) influence the moisture cycle.</p>
+<h3 id="data-collection-methods">Data Collection Methods</h3>
+<p>Reliable research depends on systematic <strong>data collection methods</strong>. For moss studies, best practices include:</p>
+<ul>
+<li><strong>Standardized protocols</strong> — Write down exactly how you will measure each variable before you start. Use the same method every time.</li>
+<li><strong>Data sheets</strong> — Pre-printed or pre-formatted forms ensure you record all necessary information at each observation point.</li>
+<li><strong>Photographic records</strong> — Supplement numerical data with photographs taken from the same position, angle, and distance each time. Include a ruler or color reference card in the frame.</li>
+<li><strong>Environmental logging</strong> — Record temperature, humidity, and light levels alongside biological data. Inexpensive data loggers (e.g., DHT22 sensors with Arduino) can automate this.</li>
+<li><strong>Digital storage</strong> — Enter data into spreadsheets promptly. Back up files regularly. Use clear, consistent file-naming conventions.</li>
+</ul>
+<h3 id="data-visualization">Data Visualization</h3>
+<p><strong>Data visualization</strong> transforms raw numbers into graphs and charts that reveal patterns. Effective visualizations for moss research include:</p>
+<ul>
+<li><strong>Line graphs</strong> — Show change over time (growth rate, moisture levels, temperature)</li>
+<li><strong>Bar charts</strong> — Compare means across treatment groups (average growth under different light conditions)</li>
+<li><strong>Scatter plots</strong> — Explore relationships between two continuous variables (moisture level vs. growth rate)</li>
+<li><strong>Box plots</strong> — Display the distribution of data within each group, showing median, quartiles, and outliers</li>
+<li><strong>Heat maps</strong> — Visualize spatial patterns (moss coverage across a study site)</li>
+</ul>
+<p>Best practices for data visualization:</p>
+<ul>
+<li>Label all axes with variable names and units</li>
+<li>Include a descriptive title</li>
+<li>Use consistent colors across related graphs</li>
+<li>Show error bars (standard deviation or standard error) on bar charts</li>
+<li>Do not use 3D effects — they distort perception of values</li>
+</ul>
+<h3 id="statistical-analysis">Statistical Analysis</h3>
+<p><strong>Statistical analysis</strong> goes beyond visualization to quantify patterns and test hypotheses. Key analyses for moss research include:</p>
+<ul>
+<li><strong>Descriptive statistics</strong> — Mean, median, standard deviation, and range summarize your data</li>
+<li><strong>t-test</strong> — Compares the means of two groups (e.g., moss growth in shade vs. sun)</li>
+<li><strong>ANOVA</strong> — Compares the means of three or more groups (e.g., moss growth at pH 4, 5, 6, 7, 8)</li>
+<li><strong>Correlation</strong> — Measures the strength and direction of the linear relationship between two variables (e.g., moisture and growth rate). Pearson's <span class="arithmatex">\(r\)</span> ranges from -1 to +1</li>
+<li><strong>Regression</strong> — Models the relationship between a predictor variable and a response variable, allowing prediction</li>
+</ul>
+<p>For most high school and introductory college moss experiments, descriptive statistics plus a t-test or one-way ANOVA are sufficient. Software options include Google Sheets (basic), Excel (intermediate), and R or Python (advanced).</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Mossby's Tip</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/tip.png" data-desc-position="bottom"><img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Mossby shares a tip"></a>
+Start simple. A well-made bar chart with error bars communicates
+more than a complicated analysis nobody understands. Master the
+basics first, then hop to more advanced methods. You're on a roll —
+or should I say, a log?</p>
+</div>
+<h3 id="citizen-science-projects">Citizen Science Projects</h3>
+<p><strong>Citizen science projects</strong> involve members of the public in genuine scientific research. In the context of moss and bryophytes, citizen science contributes data at scales that professional researchers cannot achieve alone.</p>
+<p>Major citizen science platforms and projects relevant to moss include:</p>
+<ul>
+<li><strong>iNaturalist</strong> — A global platform where users upload photographs of organisms and receive community-based identification. Moss observations on iNaturalist contribute to species distribution maps and biodiversity assessments.</li>
+<li><strong>Bryophyte surveys</strong> — Regional and national bryological societies organize volunteer surveys to document moss diversity in specific areas. Participants receive training in identification and recording methods.</li>
+<li><strong>Air quality bioindicator studies</strong> — Researchers recruit volunteers to collect moss samples from standardized locations. The samples are analyzed for heavy metal concentrations, creating pollution maps that guide environmental policy.</li>
+<li><strong>Phenology networks</strong> — Programs like the USA National Phenology Network accept observations of moss reproductive stages (sporophyte development, spore release), helping scientists track how climate change affects bryophyte life cycles.</li>
+</ul>
+<p>Participating in citizen science develops genuine scientific skills — careful observation, accurate recording, attention to protocol — while contributing to knowledge that matters beyond the classroom.</p>
+<h2 id="connecting-the-three-themes">Connecting the Three Themes</h2>
+<p>Systems thinking, biomimicry, and data collection are not separate silos. They reinforce each other:</p>
+<ul>
+<li><strong>Systems thinking</strong> tells you <em>what to look for</em> — feedback loops, emergent properties, distributed behavior</li>
+<li><strong>Biomimicry</strong> tells you <em>why it matters</em> — nature's solutions inspire human innovation</li>
+<li><strong>Data collection</strong> tells you <em>how to know for sure</em> — rigorous methods transform observations into evidence</li>
+</ul>
+<p>When you observe a moss colony retaining water (systems thinking), ask how that strategy could improve building design (biomimicry), and measure the actual water retention with controlled experiments and sensors (data collection), you are practicing integrated science at its best.</p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>Systems thinking focuses on relationships, feedback loops, and emergent properties rather than isolated parts.</li>
+<li>Moss colonies are distributed systems that display resilience patterns and low-resource optimization without any central controller.</li>
+<li>Positive feedback loops drive moss colony expansion; negative feedback loops maintain stability and prevent overgrowth.</li>
+<li>Emergent properties (water retention, temperature buffering, soil creation) appear only at the colony level, not in individual plants.</li>
+<li>Biomimicry applies moss-inspired strategies — water capture, surface optimization, passive design — to human engineering challenges.</li>
+<li>Bio-inspired materials draw on moss's efficiency to create super-absorbent, self-healing, and biodegradable products.</li>
+<li>Rigorous experimental design requires clear independent, dependent, and controlled variables, plus replication and randomization.</li>
+<li>Hypothesis testing uses null and alternative hypotheses with p-values to determine whether observed differences are statistically significant.</li>
+<li>Data visualization and statistical analysis transform raw measurements into interpretable patterns and testable conclusions.</li>
+<li>Citizen science projects extend research capacity beyond professional laboratories, contributing valuable data on moss distribution, diversity, and ecology.</li>
+</ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Ribbiting Work!</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../img/mascot/celebration.png" data-desc-position="bottom"><img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Mossby celebrates"></a>
+You've just tackled systems thinking, biomimicry, AND the scientific
+method — all through the lens of moss! That is some serious
+intellectual range, explorer. Spore-tacular effort!</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../16-moss-in-education/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 16. Moss in Education">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                16. Moss in Education
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../18-ai-simulation-and-technology/" class="md-footer__link md-footer__link--next" aria-label="Next: 18. AI, Simulation, and Technology">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                18. AI, Simulation, and Technology
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/mathjax-config.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

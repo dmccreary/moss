@@ -1,0 +1,89 @@
+{
+  "title": "Moss Sporophyte Structure",
+  "orientation": "portrait",
+  "image": "moss-sporophyte-structure.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Gametophyte (Parent Plant)",
+      "x": 45,
+      "y": 88,
+      "radius": 4,
+      "color": "#2ECC71",
+      "hint": "The bright green cushion of leafy moss at the base of the structure.",
+      "description": "The haploid (n) gametophyte generation — the green, leafy moss plant you recognize. The sporophyte grows directly from the top of the gametophyte and depends on it for water and nutrients throughout its life. The gametophyte is the dominant generation in moss."
+    },
+    {
+      "id": 2,
+      "label": "Foot",
+      "x": 40,
+      "y": 78,
+      "radius": 3.5,
+      "color": "#E67E22",
+      "hint": "The small bulbous structure embedded within the gametophyte tissue, visible through the cutaway.",
+      "description": "A bulbous structure anchoring the sporophyte within the gametophyte and absorbing water and nutrients from the parent plant. The foot is the nutritional lifeline — without it, the sporophyte cannot survive. This dependency is a key difference from vascular plant sporophytes, which become independent."
+    },
+    {
+      "id": 3,
+      "label": "Seta (Stalk)",
+      "x": 52,
+      "y": 55,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "The slender stalk transitioning from green at the base to reddish-brown at the top.",
+      "description": "A slender stalk that elevates the spore capsule above the leafy gametophyte. Height matters — the taller the seta, the better the wind can catch and carry released spores. Seta length varies from a few millimeters to several centimeters depending on the species."
+    },
+    {
+      "id": 4,
+      "label": "Spore Capsule (Sporangium)",
+      "x": 42,
+      "y": 32,
+      "radius": 4.5,
+      "color": "#8E44AD",
+      "hint": "The urn-shaped reddish-brown structure at the top of the stalk.",
+      "description": "The capsule where meiosis occurs. Diploid (2n) spore mother cells inside the capsule divide by meiosis to produce haploid (n) spores. A single capsule can produce hundreds of thousands of spores. The capsule is the entire reason the sporophyte generation exists."
+    },
+    {
+      "id": 5,
+      "label": "Calyptra",
+      "x": 35,
+      "y": 24,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "The olive-green hood tilted to one side, partially covering the capsule.",
+      "description": "A protective hood derived from the archegonium (the female reproductive structure of the gametophyte). The calyptra shields the developing capsule as it matures. When the capsule is ready to release spores, the calyptra dries out and falls away — the tilted position shown here captures that moment."
+    },
+    {
+      "id": 6,
+      "label": "Operculum (Lid)",
+      "x": 55,
+      "y": 27,
+      "radius": 3.5,
+      "color": "#F39C12",
+      "hint": "The small golden-brown dome sitting on top of the capsule rim.",
+      "description": "A small circular lid that seals the capsule while spores mature inside. When spores are ready for release, the operculum pops off, exposing the peristome teeth beneath. Think of it as the cork on a bottle of spores."
+    },
+    {
+      "id": 7,
+      "label": "Peristome Teeth",
+      "x": 82,
+      "y": 18,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "The ring of triangular tooth-like structures visible in the magnified inset.",
+      "description": "A ring of hygroscopic (moisture-sensitive) teeth around the capsule opening. In dry conditions, the teeth bend outward and release spores into the wind. In humid conditions, they curl inward and close the capsule. This elegant mechanism ensures spores are released only when wind can carry them far."
+    },
+    {
+      "id": 8,
+      "label": "Spores",
+      "x": 60,
+      "y": 22,
+      "radius": 3.5,
+      "color": "#F1C40F",
+      "hint": "The tiny golden-yellow spheres drifting in the air near the capsule.",
+      "description": "Haploid (n) single-celled reproductive units produced by meiosis inside the capsule. Each spore is microscopic (10-100 micrometers) and enclosed in a tough wall. Spores carry no food supply — unlike seeds — but are produced in enormous numbers and travel on wind. When a spore lands on moist ground, it germinates into a protonema, beginning the gametophyte generation anew."
+    }
+  ]
+}

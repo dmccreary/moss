@@ -1,0 +1,78 @@
+{
+  "title": "Moss Gametophyte Anatomy",
+  "orientation": "portrait",
+  "image": "moss-anatomy.png",
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Stem (Caulid)",
+      "x": 48.8,
+      "y": 22.7,
+      "radius": 4,
+      "color": "#2ECC71",
+      "hint": "The slender light green vertical axis running up the center of the plant.",
+      "description": "The central axis providing structural support to hold leaves upright for light capture. Contains no xylem or phloem (no vascular tissue). Some species have a simple central strand of hydroids (water-conducting cells) and leptoids (sugar-conducting cells), but these are far simpler than vascular tissue."
+    },
+    {
+      "id": 2,
+      "label": "Leaf Cross-Section",
+      "x": 93.9,
+      "y": 20.3,
+      "radius": 4,
+      "color": "#3498DB",
+      "hint": "The circular magnification inset in the upper right showing a slice through a leaf.",
+      "description": "This magnified cross-section reveals the remarkable simplicity of a moss leaf: just ONE cell thick across most of its width, with chloroplasts (green ovals) clearly visible inside each cell. The thicker region in the middle is the costa. This single-cell design gives every chloroplast direct access to sunlight."
+    },
+    {
+      "id": 3,
+      "label": "Central Strand (Stem Cross-Section)",
+      "x": 29.3,
+      "y": 23.8,
+      "radius": 3.5,
+      "color": "#8E44AD",
+      "hint": "The smaller circular magnification inset on the left showing a cross-cut of the stem.",
+      "description": "This stem cross-section shows an outer ring of cortex cells surrounding a central strand of smaller, darker cells called hydroids. Hydroids conduct water, and some species also have leptoids that conduct sugars — but these are primitive and far simpler than the xylem and phloem of vascular plants."
+    },
+    {
+      "id": 4,
+      "label": "Leaves (Phyllids)",
+      "x": 57.2,
+      "y": 32.8,
+      "radius": 4,
+      "color": "#27AE60",
+      "hint": "The bright green lance-shaped structures radiating outward from the stem.",
+      "description": "Technically called phyllids, these simple leaf-like structures are the primary site of photosynthesis. Most are just ONE cell thick (except at the midrib). They lack the waxy cuticle found on vascular plant leaves, which allows direct water absorption but also means rapid water loss in dry conditions."
+    },
+    {
+      "id": 5,
+      "label": "Costa (Midrib)",
+      "x": 58,
+      "y": 38.5,
+      "radius": 3.5,
+      "color": "#16A085",
+      "hint": "The darker green line running down the center of each leaf.",
+      "description": "A thickened central vein running from the base to near the tip of each leaf. The costa is typically 2-3 cells thick, providing structural support to the otherwise single-cell-thick leaf. It may contain simple conducting cells but is not true vascular tissue."
+    },
+    {
+      "id": 6,
+      "label": "Rhizoids",
+      "x": 50.3,
+      "y": 75.6,
+      "radius": 4,
+      "color": "#E67E22",
+      "hint": "The fine brown thread-like filaments at the very base of the plant, gripping the rock.",
+      "description": "Thread-like filaments that anchor the moss to its substrate (rock, soil, bark). Unlike true roots, rhizoids do NOT absorb water or nutrients — their only job is anchorage. They can be just one cell wide."
+    },
+    {
+      "id": 7,
+      "label": "Substrate",
+      "x": 59.3,
+      "y": 82.3,
+      "radius": 3.5,
+      "color": "#34495E",
+      "hint": "The gray rock surface at the very bottom of the image.",
+      "description": "Moss can colonize bare rock, soil, bark, concrete, and many other surfaces. It doesn't need soil to grow because it absorbs water and nutrients directly through its leaves. Over time, moss breaks down rock surfaces and contributes to soil formation — a process called primary succession."
+    }
+  ],
+  "layout": "side-panel"
+}
