@@ -1,0 +1,4 @@
+# Seed Prompt
+
+!!! prompt
+    I want to create a interactive intelligent textbook about moss.  It should include what is moss, how is moss different from other plants, different types of moss, how to select the right moss for a garden, creating an outdoor moss-focus garden, creating an indoor mossarium, moss as indoor decoration, creating a live-moss wall, moss as part of a sustainable home, moss for commercial buildings, moss artwork, moss sculpture, interesting uses for moss, getting kids familiar with moss, moss and senior living homes, moss and ecosystems, moss ecology, moss and sustainability and related topics.  Please help me by creating an detailed well-organized outline for this book and include any topics you think that I missed that people would be interested in.

@@ -1,0 +1,104 @@
+site_name: Moss
+site_description: A interactive intelligent textbook about moss - biology, ecology, design, and sustainability
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/moss/'
+repo_url: 'https://github.com/dmccreary/moss'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Course Description: course-description.md
+  - Draft Outline: draft-outline.md
+  - Chapters:
+    - Overview: chapters/index.md
+    - 1. Scientific Foundations: chapters/01-scientific-foundations/index.md
+    - 2. Ecology and Conservation: chapters/02-ecology-and-conservation/index.md
+    - 3. What Is Moss?: chapters/03-what-is-moss/index.md
+    - 4. Moss Anatomy and Life Cycle: chapters/04-moss-anatomy-and-life-cycle/index.md
+    - 5. Moss Types and Identification: chapters/05-moss-types-and-identification/index.md
+    - 6. Water, Climate, and Moss: chapters/06-water-climate-and-moss/index.md
+    - 7. Moss Ecology and Ecosystems: chapters/07-moss-ecology-and-ecosystems/index.md
+    - 8. Harvesting and Propagation: chapters/08-harvesting-and-propagation/index.md
+    - 9. Troubleshooting and Equipment: chapters/09-troubleshooting-and-equipment/index.md
+    - 10. Designing a Moss Garden: chapters/10-designing-a-moss-garden/index.md
+    - 11. Garden Styles and Alternatives: chapters/11-garden-styles-and-alternatives/index.md
+    - 12. Building a Mossarium: chapters/12-building-a-mossarium/index.md
+    - 13. Indoor Moss and Biophilic Design: chapters/13-indoor-moss-and-biophilic-design/index.md
+    - 14. Moss in Architecture: chapters/14-moss-in-architecture/index.md
+    - 15. Moss as Art and Culture: chapters/15-moss-as-art-and-culture/index.md
+    - 16. Moss in Education: chapters/16-moss-in-education/index.md
+    - 17. Systems Thinking and Biomimicry: chapters/17-systems-thinking-and-biomimicry/index.md
+    - 18. AI, Simulation, and Technology: chapters/18-ai-simulation-and-technology/index.md
+    - 19. The Future of Moss: chapters/19-the-future-of-moss/index.md
+    - 20. Capstone: chapters/20-capstone/index.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+  - MicroSims:
+    - Graph Viewer: sims/graph-viewer/index.md
+
+theme:
+  name: material
+  palette:
+    primary: 'green'
+    accent: 'white'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+  - social
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmetic:
+      generic: true
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - js/extra.js
+
+watch:
+  - docs
+  - mkdocs.yml
+
+extra:
+  generator: false
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: Moss
+  textbook_version: "1.0"
