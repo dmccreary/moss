@@ -33,6 +33,7 @@ nav:
     - 18. AI, Simulation, and Technology: chapters/18-ai-simulation-and-technology/index.md
     - 19. The Future of Moss: chapters/19-the-future-of-moss/index.md
     - 20. Capstone: chapters/20-capstone/index.md
+  - FAQ: faq.md
   - Glossary: glossary.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -41,6 +42,7 @@ nav:
     - Graph Quality Analysis: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - FAQ Quality Report: learning-graph/faq-quality-report.md
     - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
     - List of MicroSims: sims/index.md
