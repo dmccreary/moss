@@ -1,0 +1,14 @@
+{
+  "sim_id": "seasonal-care-calendar",
+  "diagram_name": "Seasonal Moss Care Calendar",
+  "chapter_number": 11,
+  "chapter_title": "Garden Styles and Lawn Alternatives",
+  "chapter_dir": "11-garden-styles-and-alternatives",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: MicroSim\n**sim-id:** seasonal-care-calendar<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive circular calendar showing moss care tasks by season:\n\n**Visual:**\n\n- A circular diagram divided into 12 months, grouped by season (color-coded)\n- Spring (March-May): light green\n- Summer (June-August): deep green\n- Autumn (September-November): golden/amber\n- Winter (December-February): cool blue/gray\n- Each month segment contains icons representing care tasks\n- A central moss illustration that changes appearance by season (lush green in spring/summer, bronze in autumn, dormant brown/white in winter)\n\n**Interaction:**\n\n- Click a month to expand it and show detailed task descriptions\n- Hover over task icons for tooltips explaining each task\n- \"Animate Year\" button that rotates through all 12 months, showing the moss changing and tasks appearing\n\n**Controls:**\n\n- Climate zone selector (humid continental, humid subtropical, oceanic, Mediterranean) that adjusts task timing\n- Toggle between Northern and Southern hemisphere\n\nCanvas: responsive width, 500px height\nColor scheme: seasonal palette as described above\n\n**Learning objective:** (L3 — Apply) Students can create a maintenance plan for a moss garden appropriate to their climate zone and season.\n\nImplementation: p5.js with polar coordinate layout and interactive month selection"
+}

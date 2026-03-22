@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-food-web",
+  "diagram_name": "Moss Ecosystem Food Web",
+  "chapter_number": 7,
+  "chapter_title": "Moss Ecology and Ecosystems",
+  "chapter_dir": "07-moss-ecology-and-ecosystems",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-food-web<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\nAn interactive food web diagram showing the organisms connected to moss ecosystems, with click-to-explore descriptions.\n\nNodes (organized by trophic level, bottom to top):\n- Primary producers (green, bottom): Moss, Algae on moss, Cyanobacteria\n- Decomposers (brown): Fungi, Bacteria\n- Primary consumers (light blue): Tardigrades, Rotifers, Nematodes, Mites, Springtails, Snails\n- Secondary consumers (orange): Spiders, Ground beetles, Centipedes\n- Tertiary consumers (red, top): Birds, Frogs, Salamanders\n\nEdges: Directed arrows from food source to consumer. Labeled with relationship type (e.g., \"feeds on\", \"decomposes\", \"fixes nitrogen for\").\n\nInteraction:\n- Click any node to highlight it and all its connections\n- Info panel shows the organism's name, role, and relationship to moss\n- \"Highlight Moss Connections\" button that dims non-moss-connected nodes\n- Hover over edges to see relationship descriptions\n\nLayout: hierarchical bottom-to-top (trophic levels)\nCanvas: responsive width, 450px height\nPhysics: disabled (fixed positions)\n\nLearning objective: (L4 — Analyze) Students can trace energy and nutrient flow through a moss-based food web and identify the ecological roles of different organisms.\n\nImplementation: vis-network with hierarchical layout and click-to-highlight"
+}

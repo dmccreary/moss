@@ -1,0 +1,14 @@
+{
+  "sim_id": "succession-stages",
+  "diagram_name": "Succession Stages on a Rock Surface",
+  "chapter_number": 2,
+  "chapter_title": "Ecology and Conservation Foundations",
+  "chapter_dir": "02-ecology-and-conservation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic\n**sim-id:** succession-stages<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nA horizontal progression showing five stages of primary succession on a rock surface:\n\n**Layout:** Five panels arranged left to right, each showing the same cross-section of rock at a different stage:\n\n1. **Bare Rock** (gray) — Empty surface, no life. Label: \"Year 0\"\n2. **Lichen Stage** (gray + orange/yellow patches) — Crusty lichens on rock surface. Thin layer of broken-down material. Label: \"Years 1-50\"\n3. **Moss Stage** (gray + green carpet) — Moss growing on lichen-created substrate. Visible thin soil layer forming. Label: \"Years 50-200\"\n4. **Herbaceous Stage** (deeper brown soil + small green plants) — Grasses and ferns rooted in moss-built soil. Label: \"Years 200-500\"\n5. **Woodland Stage** (deep brown soil + trees) — Shrubs and young trees in developed soil. Label: \"Years 500+\"\n\n**Interaction:**\n- Click any stage to highlight it and show a detail panel below with description\n- A \"Play\" button animates the progression from left to right with a slow transition\n- Soil depth indicator on the side shows soil accumulation at each stage\n- Hover over moss in stage 3 to see tooltip: \"Moss traps debris and moisture, building soil 10x faster than weathering alone\"\n\nCanvas: responsive width, 400px height\nColor scheme: earth tones (gray rock → brown soil → green plants)\n\n**Learning objective:** (L4 — Analyze) Students can analyze the role of moss in primary succession and explain why moss is essential for soil formation on bare surfaces.\n\nImplementation: p5.js with clickable panels and animated progression"
+}

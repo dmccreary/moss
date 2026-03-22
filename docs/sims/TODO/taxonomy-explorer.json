@@ -1,0 +1,14 @@
+{
+  "sim_id": "taxonomy-explorer",
+  "diagram_name": "Taxonomy Classification Explorer",
+  "chapter_number": 1,
+  "chapter_title": "Scientific Foundations and Prerequisites",
+  "chapter_dir": "01-scientific-foundations",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic\n**sim-id:** taxonomy-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive nested-boxes visualization showing taxonomic hierarchy for three example moss species:\n\n- Outermost box: Domain Eukarya (light gray)\n- Next: Kingdom Plantae (light green)\n- Next: Division Bryophyta (medium green)\n- Innermost boxes branch into three columns for three species:\n  - *Polytrichum commune* (Haircap Moss)\n  - *Sphagnum palustre* (Peat Moss)\n  - *Leucobryum glaucum* (Cushion Moss)\n\nEach level is clickable to highlight and display a description panel on the right. Hovering over any level shows a tooltip with the level name and description. The three species share the outer boxes but diverge at Class level.\n\nCanvas: responsive width, 500px height\nColor scheme: graduated greens from light (Domain) to dark (Species)\nInteraction: click to select level, hover for tooltips\n\n**Learning objective:** (L1 — Remember) Students can name the major levels of biological classification and identify where moss fits within the hierarchy.\n\nImplementation: p5.js with clickable regions and info panel"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "primary-succession",
+  "diagram_name": "Primary Succession on Rock",
+  "chapter_number": 7,
+  "chapter_title": "Moss Ecology and Ecosystems",
+  "chapter_dir": "07-moss-ecology-and-ecosystems",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** primary-succession<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive step-through diagram showing the stages of primary succession from bare rock to forest, with moss highlighted as a key early colonizer.\n\nVisual elements:\n- A horizontal landscape scene that transforms through 5 stages\n- Stage 1: Bare gray rock surface, no life\n- Stage 2: Lichens (orange and yellow patches) appearing on rock\n- Stage 3: Moss colonies (green cushions) growing among lichens, thin brown soil layer beginning to form\n- Stage 4: Grasses and small ferns growing from soil accumulated by moss, moss still present\n- Stage 5: Mature vegetation with trees, shrubs, and a developed soil layer, moss on the forest floor and tree bases\n\nInteractive controls:\n- \"Next Stage\" and \"Previous Stage\" buttons for step-through\n- Info panel showing:\n  - Stage name and time scale (e.g., \"Stage 3: Moss Colonization — 10-50 years\")\n  - Description of what's happening\n  - Moss's specific contribution at this stage\n- Timeline bar at bottom showing progression\n\nCanvas: responsive width, 450px height\nColors: rock (gray), lichens (orange/yellow), moss (bright green), soil (brown), vegetation (varied greens)\n\nLearning objective: (L2 — Understand) Students can describe how moss contributes to primary succession and soil formation on bare rock.\n\nInstructional Rationale: Step-through with stages is appropriate for an Understand-level objective because students must trace the sequential process and understand moss's role at each stage.\n\nImplementation: p5.js with stage-based rendering and step-through controls"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "spore-dispersal-mechanism",
+  "diagram_name": "Spore Dispersal Mechanism",
+  "chapter_number": 4,
+  "chapter_title": "Moss Anatomy and Life Cycle",
+  "chapter_dir": "04-moss-anatomy-and-life-cycle",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: MicroSim\n**sim-id:** spore-dispersal-mechanism<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive simulation showing how peristome teeth respond to humidity and control spore release.\n\nVisual elements:\n- A cross-section view of a moss spore capsule at center\n- Peristome teeth rendered as curved structures around the capsule rim\n- Small golden dots representing spores inside the capsule\n- Wind particles (light blue streaks) blowing from left to right\n- Humidity indicator showing current moisture level\n- A landscape background (simple) showing how far spores travel\n\nInteractive controls:\n- Slider: Humidity level (0% to 100%)\n- At low humidity (< 40%): teeth open outward, spores are released and carried by wind\n- At high humidity (> 60%): teeth close inward, spores stay inside\n- Between 40-60%: teeth partially open with some spore release\n- Button: \"Release Spores\" to manually trigger a burst\n- Display: Counter showing number of spores released and average dispersal distance\n\nCanvas: responsive width, 350px height\n\nLearning objective: (L3 — Apply) Students can predict whether spores will be released based on humidity conditions and explain the adaptive advantage of the peristome mechanism.\n\nInstructional Rationale: Parameter exploration with a humidity slider is appropriate for an Apply-level objective because students must use their understanding of the mechanism to predict outcomes under different conditions.\n\nImplementation: p5.js with humidity-responsive animation and particle system for spores"
+}

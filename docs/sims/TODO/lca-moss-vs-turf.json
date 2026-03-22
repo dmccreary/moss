@@ -1,0 +1,14 @@
+{
+  "sim_id": "lca-moss-vs-turf",
+  "diagram_name": "Life Cycle Comparison — Moss vs. Turf Grass",
+  "chapter_number": 2,
+  "chapter_title": "Ecology and Conservation Foundations",
+  "chapter_dir": "02-ecology-and-conservation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic\n**sim-id:** lca-moss-vs-turf<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nA side-by-side comparison infographic showing the life cycle of a moss garden vs. a turf grass lawn:\n\n**Layout:** Two columns (left: Turf Grass in brown/tan, right: Moss Garden in green) with four horizontal rows representing LCA phases:\n\n1. **Raw Materials** — Turf side shows icons for seed bags, fertilizer, irrigation pipes; Moss side shows a single moss patch icon\n2. **Production** — Turf shows factory/mower icons; Moss shows hands transplanting\n3. **Use Phase** — Turf shows mower, sprinkler, chemical spray; Moss shows a peaceful garden with a bird\n4. **End of Life** — Turf shows landfill/chemical runoff; Moss shows the garden persisting with a \"still growing\" label\n\n**Interaction:**\n- Click any phase to expand a detail panel showing specific metrics (estimated CO₂, water use, cost per year)\n- A running \"Environmental Score\" counter at the bottom tallies impacts as users click through phases\n- Hover over any icon for a tooltip with quantitative data\n\nCanvas: responsive width, 500px height\nColor scheme: brown/tan for turf, green for moss, red for negative impacts, blue for water\n\n**Learning objective:** (L5 — Evaluate) Students can evaluate the environmental footprint of a moss garden versus a turf grass lawn across all life cycle phases.\n\nImplementation: p5.js with clickable phase panels and running score"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-types-gallery",
+  "diagram_name": "Common Moss Types Gallery",
+  "chapter_number": 5,
+  "chapter_title": "Moss Types and Identification",
+  "chapter_dir": "05-moss-types-and-identification",
+  "library": "diagram.js (shared-libs)",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic Overlay\n**sim-id:** moss-types-gallery<br/>\n**Library:** diagram.js (shared-libs)<br/>\n**Status:** Specified\n\nA gallery-style botanical illustration showing 8 common moss types arranged in a 4x2 grid, with interactive overlay markers identifying each species.\n\nImage: Landscape (1200x900), watercolor botanical style, white background. Eight individual moss specimens arranged in a 4x2 grid (4 columns, 2 rows), each in its own space with clear separation. Each specimen shows the characteristic growth form and shape of that species.\n\nRow 1 (left to right):\n1. Sheet Moss — flat, carpet-like mat of bright green (#32CD32), pleurocarpous. Position: 12%, 25%\n2. Cushion Moss — rounded pale whitish-green (#B8D8B8) dome-shaped cushion. Position: 37%, 25%\n3. Haircap Moss — tall dark green (#006400) upright stems resembling miniature fir trees, with one hairy sporophyte capsule. Position: 62%, 25%\n4. Rock Cap Moss — emerald green (#2E8B57) tufts with all leaves curving in one direction. Position: 87%, 25%\n\nRow 2 (left to right):\n5. Sphagnum Moss — branching stems with star-shaped capitula in mixed green and reddish tones (#8B0000 and #32CD32). Position: 12%, 75%\n6. Fern Moss — delicate fern-like yellow-green (#9ACD32) branching pattern. Position: 37%, 75%\n7. Mood Moss — soft fluffy bright green (#32CD32) mounds. Position: 62%, 75%\n8. Plume Moss — feathery, flowing pale green (#90EE90) plumes. Position: 87%, 75%\n\nOverlay callouts (8 entries): Each callout positioned at the center of its specimen, with label (common name) and description including growth form, key features, and typical habitat.\n\nLayout: dual-panel\n\nLearning objective: (L1 — Remember) Students can identify and name at least five common moss types by their visual appearance.\n\nImplementation: Text-to-image illustration + diagram.js overlay with data.json"
+}

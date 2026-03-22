@@ -1,0 +1,14 @@
+{
+  "sim_id": "lawn-carbon-comparison",
+  "diagram_name": "Lawn Carbon Footprint Comparison",
+  "chapter_number": 11,
+  "chapter_title": "Garden Styles and Lawn Alternatives",
+  "chapter_dir": "11-garden-styles-and-alternatives",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: MicroSim\n**sim-id:** lawn-carbon-comparison<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nA stacked bar chart comparing annual CO₂-equivalent emissions from turf grass vs. moss lawn maintenance:\n\n**Turf Grass Bar (stacked segments):**\n\n- Mowing (gasoline): 40 kg CO₂e — dark red\n- Fertilizer production: 80 kg CO₂e — orange\n- N₂O from fertilizer: 150 kg CO₂e — yellow\n- Irrigation pumping: 30 kg CO₂e — blue\n- Other equipment: 20 kg CO₂e — gray\n- Total: ~320 kg CO₂e (conservative estimate for 200 m²)\n\n**Moss Lawn Bar:**\n\n- Maintenance: 0 kg CO₂e\n- Carbon sequestration offset: -5 to -15 kg CO₂e (shown as green bar below zero)\n\n**Controls:**\n\n- Toggle to switch between \"per 200 m²\" and \"per acre\" scales\n- Hover tooltips showing exact values and explanations\n\nCanvas: responsive width, 400px height\nColor scheme: warm colors for emissions, green for sequestration\n\n**Learning objective:** (L4 — Analyze) Students can compare the carbon footprint of turf grass and moss lawns and identify the major sources of lawn-related emissions.\n\nImplementation: Chart.js stacked bar chart with tooltip annotations"
+}
