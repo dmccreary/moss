@@ -106,6 +106,8 @@ theme:
     primary: 'green'
     accent: 'white'
   include_sidebar: true
+  logo: img/welcome-192.png
+  favicon: img/favicon.ico
   features:
     - content.code.copy
     - navigation.expand

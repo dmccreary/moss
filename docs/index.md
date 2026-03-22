@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+---
+title: Moss
+description: A interactive intelligent textbook about moss - biology, ecology, design, and sustainability
+image: img/cover.png
+og:image: img/cover.png
+hide:
+    toc
+---
+# Moss
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Moss Cover](./img/cover.png)
 
-## Commands
+Welcome to the interactive intelligent textbook about moss - biology, ecology, design, and sustainability.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [About This Book](about.md)
+- [Course Description](course-description.md)
+- [Chapters](./chapters/index.md)
+- [MicroSims](./sims/index.md)
+- [Glossary](glossary.md)
+- [FAQ](faq.md)
 
-## Project layout
+Please let me know if you have any feedback.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Dan McCreary [LinkedIn](https://www.linkedin.com/in/danmccreary/)
+
+
