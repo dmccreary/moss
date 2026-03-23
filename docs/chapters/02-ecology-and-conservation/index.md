@@ -185,6 +185,10 @@ Moss participates in all three cycles. It fixes carbon through photosynthesis, o
 
 #### Diagram: Nutrient Cycles in a Moss Ecosystem
 
+
+<iframe src="../../sims/moss-nutrient-cycles<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Nutrient Cycles in a Moss Ecosystem Fullscreen](../../sims/moss-nutrient-cycles<br/>/main.html)
+
 <details markdown="1">
 <summary>Nutrient Cycles in a Moss Ecosystem</summary>
 Type: Diagram
@@ -329,6 +333,10 @@ Moss plays a starring role in primary succession. Here's the typical sequence on
 This process can take decades to centuries — but without moss, it would take much longer. Moss is literally the bridge between bare rock and forest.
 
 #### Diagram: Succession Stages on a Rock Surface
+
+
+<iframe src="../../sims/succession-stages<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Succession Stages on a Rock Surface Fullscreen](../../sims/succession-stages<br/>/main.html)
 
 <details markdown="1">
 <summary>Succession Stages on a Rock Surface</summary>
@@ -489,6 +497,10 @@ Applying LCA to a moss lawn vs. a turf grass lawn reveals striking differences:
 LCA reveals that the "simple" grass lawn carries an enormous hidden environmental footprint, while the "unusual" moss garden is remarkably low-impact across every phase.
 
 #### Diagram: Life Cycle Comparison — Moss vs. Turf Grass
+
+
+<iframe src="../../sims/lca-moss-vs-turf<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Life Cycle Comparison — Moss vs. Turf Grass Fullscreen](../../sims/lca-moss-vs-turf<br/>/main.html)
 
 <details markdown="1">
 <summary>Life Cycle Comparison — Moss vs. Turf Grass</summary>

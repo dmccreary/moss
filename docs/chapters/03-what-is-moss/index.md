@@ -130,6 +130,10 @@ The key insight is that moss's lack of a vascular system isn't a flaw — it's a
 
 #### Diagram: Vascular vs. Non-Vascular Water Transport
 
+
+<iframe src="../../sims/water-transport-comparison<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Vascular vs. Non-Vascular Water Transport Fullscreen](../../sims/water-transport-comparison<br/>/main.html)
+
 <details markdown="1">
 <summary>Vascular vs. Non-Vascular Water Transport</summary>
 Type: MicroSim
@@ -263,6 +267,10 @@ Each step in this progression involved a major evolutionary innovation: vascular
 
 #### Diagram: Plant Kingdom Family Tree
 
+
+<iframe src="../../sims/plant-family-tree<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Plant Kingdom Family Tree Fullscreen](../../sims/plant-family-tree<br/>/main.html)
+
 <details markdown="1">
 <summary>Plant Kingdom Family Tree</summary>
 Type: Diagram
@@ -367,6 +375,10 @@ Despite its delicate appearance, moss is extraordinarily **resilient**. Many spe
 This combination of slow growth and extreme resilience is the moss strategy in a nutshell: don't grow fast, grow *forever*. While flashier plants race upward and burn out, moss takes the long game — and it's been winning for 450 million years.
 
 #### Diagram: Moss Desiccation and Revival Cycle
+
+
+<iframe src="../../sims/desiccation-revival<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Moss Desiccation and Revival Cycle Fullscreen](../../sims/desiccation-revival<br/>/main.html)
 
 <details markdown="1">
 <summary>Moss Desiccation and Revival Cycle</summary>

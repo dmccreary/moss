@@ -474,6 +474,10 @@ The integration of moss into the building envelope represents a shift from "buil
 
 #### Diagram: Green Roof Layer System
 
+
+<iframe src="../../sims/green-roof-layers<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Green Roof Layer System Fullscreen](../../sims/green-roof-layers<br/>/main.html)
+
 <details markdown="1">
 <summary>Green Roof Layer System</summary>
 Type: Diagram

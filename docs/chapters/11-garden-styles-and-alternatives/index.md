@@ -276,6 +276,10 @@ A moss lawn's carbon footprint is effectively zero from maintenance (no mowing, 
 
 #### Diagram: Lawn Carbon Footprint Comparison
 
+
+<iframe src="../../sims/lawn-carbon-comparison<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Lawn Carbon Footprint Comparison Fullscreen](../../sims/lawn-carbon-comparison<br/>/main.html)
+
 <details markdown="1">
 <summary>Lawn Carbon Footprint Comparison</summary>
 Type: MicroSim
@@ -382,6 +386,10 @@ If patches fail to recover after two weeks of consistent moisture, they may have
     on low, or pick up leaves by hand. Your moss will thank you!
 
 #### Diagram: Seasonal Moss Care Calendar
+
+
+<iframe src="../../sims/seasonal-care-calendar<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Seasonal Moss Care Calendar Fullscreen](../../sims/seasonal-care-calendar<br/>/main.html)
 
 <details markdown="1">
 <summary>Seasonal Moss Care Calendar</summary>

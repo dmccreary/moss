@@ -196,6 +196,10 @@ When you design a moss garden or build a mossarium, you're not just following a 
 
 #### Diagram: Design Thinking Cycle for Moss Projects
 
+
+<iframe src="../../sims/design-thinking-cycle<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Design Thinking Cycle for Moss Projects Fullscreen](../../sims/design-thinking-cycle<br/>/main.html)
+
 <details markdown="1">
 <summary>Design Thinking Cycle for Moss Projects</summary>
 Type: Diagram
@@ -314,6 +318,10 @@ Key soil concepts:
 The chemistry behind pH involves **hydrogen ions** (\(H^+\)). More hydrogen ions means more acidic (lower pH). Fewer hydrogen ions means more basic (higher pH). Moss has evolved to thrive in slightly acidic conditions because that's the typical pH of forest floor soil, where centuries of decomposing leaves create a naturally acidic environment.
 
 #### Diagram: Interactive pH Scale for Moss Environments
+
+
+<iframe src="../../sims/ph-scale-moss<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Interactive pH Scale for Moss Environments Fullscreen](../../sims/ph-scale-moss<br/>/main.html)
 
 <details markdown="1">
 <summary>Interactive pH Scale for Moss Environments</summary>
@@ -436,6 +444,10 @@ When you see a scientific name like *Polytrichum commune* (common haircap moss),
 
 #### Diagram: Taxonomy Classification Explorer
 
+
+<iframe src="../../sims/taxonomy-explorer<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Taxonomy Classification Explorer Fullscreen](../../sims/taxonomy-explorer<br/>/main.html)
+
 <details markdown="1">
 <summary>Taxonomy Classification Explorer</summary>
 Type: Interactive Infographic
@@ -529,6 +541,10 @@ Convergent evolution tells us that some design solutions are so effective that n
 These coevolutionary relationships reveal that moss is not a lone wolf (or a lone frog). It's embedded in a web of partnerships that have been co-evolving for hundreds of millions of years.
 
 #### Diagram: Moss Evolutionary Timeline
+
+
+<iframe src="../../sims/moss-evolution-timeline<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Moss Evolutionary Timeline Fullscreen](../../sims/moss-evolution-timeline<br/>/main.html)
 
 <details markdown="1">
 <summary>Moss Evolutionary Timeline</summary>

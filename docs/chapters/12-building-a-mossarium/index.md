@@ -240,6 +240,10 @@ Target pH: 5.0-6.0 (acidic). Peat moss naturally acidifies the mix. If using coc
 
 #### Diagram: Mossarium Substrate Cross-Section
 
+
+<iframe src="../../sims/mossarium-substrate-layers<br/>/main.html" width="100%" height="450px" scrolling="no"></iframe>
+[Run Mossarium Substrate Cross-Section Fullscreen](../../sims/mossarium-substrate-layers<br/>/main.html)
+
 <details markdown="1">
 <summary>Mossarium Substrate Cross-Section</summary>
 Type: Diagram

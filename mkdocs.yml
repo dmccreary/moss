@@ -87,13 +87,39 @@ nav:
     - Mascot Test: learning-graph/mascot-test.md
   - MicroSims:
     - List of MicroSims: sims/index.md
+    - Acrocarpous vs Pleurocarpous Growth Forms: sims/acro-vs-pleuro/index.md
     - Bryophyte Comparison MicroSim: sims/bryophyte-comparison/index.md
+    - Common Moss Types Gallery: sims/moss-types-gallery/index.md
+    - Complete Moss Life Cycle: sims/moss-life-cycle/index.md
+    - Design Thinking Cycle for Moss Projects: sims/design-thinking-cycle/index.md
+    - Dichotomous Key for Common Mosses: sims/moss-dichotomous-key/index.md
+    - Green Roof Layer System: sims/green-roof-layers/index.md
+    - Interactive pH Scale for Moss Environments: sims/ph-scale-moss/index.md
+    - Lawn Carbon Footprint Comparison: sims/lawn-carbon-comparison/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Life Cycle Comparison — Moss vs. Turf Grass: sims/lca-moss-vs-turf/index.md
+    - Moss as a Bioindicator: sims/moss-bioindicator/index.md
     - Moss Cell Structure: sims/moss-cell-structure/index.md
+    - Moss Desiccation and Revival Cycle: sims/desiccation-revival/index.md
+    - Moss Ecosystem Food Web: sims/moss-food-web/index.md
+    - Moss Evolutionary Timeline: sims/moss-evolution-timeline/index.md
     - Moss Gametophyte Anatomy: sims/moss-gametophyte-anatomy/index.md
+    - Moss Garden Planning Checklist: sims/moss-garden-planning/index.md
+    - Moss Growth Forms: sims/moss-growth-forms/index.md
+    - Moss in the Water Cycle: sims/moss-water-cycle/index.md
     - Moss Sporophyte Structure: sims/moss-sporophyte-structure/index.md
+    - Moss Water Absorption and Storage: sims/moss-water-storage/index.md
+    - Mossarium Substrate Cross-Section: sims/mossarium-substrate-layers/index.md
+    - Nutrient Cycles in a Moss Ecosystem: sims/moss-nutrient-cycles/index.md
     - Plant Family Tree: sims/plant-family-tree/index.md
-    - "Water Transport Comparison: Vascular Plant vs Moss": sims/water-transport-comparison/index.md
+    - Primary Succession on Rock: sims/primary-succession/index.md
+    - Seasonal Moss Care Calendar: sims/seasonal-care-calendar/index.md
+    - Spore Dispersal Mechanism: sims/spore-dispersal-mechanism/index.md
+    - Succession Stages on a Rock Surface: sims/succession-stages/index.md
+    - Taxonomy Classification Explorer: sims/taxonomy-explorer/index.md
+    - Water Transport Comparison: Vascular Plant vs Moss: sims/water-transport-comparison/index.md
+
+
   - Appendices:
     - Pronunciation Guide: appendices/common-terms.md
 
