@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-garden-planning",
+  "diagram_name": "Moss Garden Planning Checklist",
+  "chapter_number": 10,
+  "chapter_title": "Designing a Moss Garden",
+  "chapter_dir": "10-designing-a-moss-garden",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-garden-planning<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive planning checklist and site assessment tool for designing a moss garden.\n\nVisual elements:\n- A visual checklist organized into 5 sections: Light, Moisture, Soil, Species, and Preparation\n- Each section has 3-4 checklist items with checkboxes\n- As items are checked, a \"Readiness Meter\" gauge fills up (0-100%)\n- Below the checklist, a \"Recommended Species\" panel updates based on which conditions are checked\n- A color-coded summary: green (ready to plant), yellow (needs attention), red (not suitable)\n\nInteractive controls:\n- Clickable checkboxes for each assessment item\n- Items include:\n  Light: Full shade, Partial shade, Dappled light, Full sun\n  Moisture: Naturally moist, Average drainage, Dry/fast-draining, Near water source\n  Soil: pH tested (5.0-6.0), pH needs adjustment, Soil compacted, Area cleared\n  Species: Native species identified, 2+ species selected, Starter material obtained\n  Prep: Grass removed, Surface leveled, Hardscape installed, Irrigation planned\n- Reset button to clear all selections\n- Species recommendation panel dynamically updates\n\nCanvas: responsive width, 450px height\n\nLearning objective: (L3 — Apply) Students can systematically assess a garden site for moss suitability and select appropriate species based on site conditions.\n\nImplementation: p5.js with checkbox-based interactive checklist and dynamic recommendations"
+}

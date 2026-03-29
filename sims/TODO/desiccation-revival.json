@@ -1,0 +1,14 @@
+{
+  "sim_id": "desiccation-revival",
+  "diagram_name": "Moss Desiccation and Revival Cycle",
+  "chapter_number": 3,
+  "chapter_title": "What Is Moss?",
+  "chapter_dir": "03-what-is-moss",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: MicroSim\n**sim-id:** desiccation-revival<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn animated simulation showing moss drying out and reviving:\n\n**Visual:**\n- A single moss cushion rendered in the center of the canvas\n- The cushion changes appearance based on hydration level:\n  - 100% hydrated: bright green, plump, upright leaves\n  - 75%: slightly duller green\n  - 50%: olive/yellow-green, leaves beginning to curl\n  - 25%: brown, leaves curled tightly inward\n  - 0%: dark brown/black, completely dormant, crispy appearance\n- A water droplet meter on the left shows current hydration percentage\n- A clock shows elapsed time\n\n**Controls:**\n- \"Dry Out\" button: gradually reduces hydration over 5 seconds with animation\n- \"Add Water\" button: triggers a rain animation and revives the moss over 3 seconds\n- Speed slider: controls animation speed\n- \"Auto Cycle\" toggle: automatically alternates between drying and rehydrating\n\n**Behavior:**\n- Smooth color and shape transitions as hydration changes\n- When \"Add Water\" is pressed on dry moss, show a dramatic \"revival\" animation with leaves unfurling and color returning to green\n- Display text: \"Time dormant: X\" showing how long the moss has been dry\n- Fun fact popup: \"Some mosses have revived after being dry for over 10 years!\"\n\nCanvas: responsive width, 400px height\nColor scheme: green (hydrated) → brown (desiccated) with smooth gradient\n\n**Learning objective:** (L2 — Understand) Students can describe the process of desiccation tolerance and explain why this adaptation is critical for moss survival.\n\nImplementation: p5.js with state-based animation and smooth color interpolation"
+}

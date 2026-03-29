@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-evolution-timeline",
+  "diagram_name": "Moss Evolutionary Timeline",
+  "chapter_number": 1,
+  "chapter_title": "Scientific Foundations and Prerequisites",
+  "chapter_dir": "01-scientific-foundations",
+  "library": "vis-timeline",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Timeline\n**sim-id:** moss-evolution-timeline<br/>\n**Library:** vis-timeline<br/>\n**Status:** Specified\n\nAn interactive horizontal timeline showing major events in land plant evolution:\n\n- **470 MYA** — First land plants (liverwort-like ancestors)\n- **450 MYA** — Early mosses diverge from other bryophytes\n- **420 MYA** — First vascular plants appear\n- **360 MYA** — Ferns and seed ferns diversify\n- **300 MYA** — Carboniferous forests (giant ferns and lycopsids)\n- **250 MYA** — Permian extinction event\n- **130 MYA** — First flowering plants\n- **66 MYA** — Cretaceous extinction (dinosaurs disappear, mosses persist)\n- **10,000 years ago** — Last ice age ends, mosses recolonize exposed land\n- **Present** — Over 12,000 moss species worldwide\n\nTimeline is zoomable and pannable. Each event has a colored marker (green for moss events, brown for other plant events, red for extinction events). Clicking an event shows a description panel below the timeline. A green horizontal bar spans from 450 MYA to present, labeled \"Moss persists through it all.\"\n\nCanvas: responsive width, 350px height\nColor scheme: green markers for moss, earth tones for other events\nInteraction: click event for details, scroll to zoom, drag to pan\n\n**Learning objective:** (L4 — Analyze) Students can compare the evolutionary timeline of moss to other plant groups and analyze why moss has persisted through multiple mass extinction events.\n\nImplementation: vis-timeline with custom event rendering"
+}

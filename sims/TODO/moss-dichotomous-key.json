@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-dichotomous-key",
+  "diagram_name": "Dichotomous Key for Common Mosses",
+  "chapter_number": 5,
+  "chapter_title": "Moss Types and Identification",
+  "chapter_dir": "05-moss-types-and-identification",
+  "library": "vis-network",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-dichotomous-key<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\nAn interactive dichotomous key flowchart for identifying 8 common moss types, implemented as a hierarchical tree in vis-network.\n\nNodes:\n- Decision nodes (light blue diamonds): Each contains a yes/no identification question\n  - Node 1: \"Upright growth?\" (root node, leftmost)\n  - Node 2: \"Tall (>5 cm), stiff leaves?\"\n  - Node 3: \"Leaves curve one direction?\"\n  - Node 4: \"Pale whitish-green?\"\n  - Node 5: \"Fern-like branching?\"\n  - Node 6: \"Smooth, flat mats?\"\n\n- Species nodes (green rounded rectangles): Terminal nodes with species names\n  - Haircap Moss (dark green #006400)\n  - Rock Cap Moss (emerald #2E8B57)\n  - Cushion Moss (pale green #B8D8B8)\n  - Mood Moss (bright green #32CD32)\n  - Fern Moss (yellow-green #9ACD32)\n  - Sheet Moss (green #32CD32)\n  - Plume Moss (light green #90EE90)\n\nEdges: Labeled \"Yes\" or \"No\" at each branch\n\nInteraction:\n- Click any decision node to highlight the path and show the question in an info panel\n- Click a species node to see a brief description and photo hint\n- \"Start Over\" button to reset highlighting\n\nLayout: hierarchical left-to-right\nCanvas: responsive width, 450px height\nPhysics: disabled\n\nLearning objective: (L3 — Apply) Students can use a dichotomous key to identify common moss types by following branching yes/no questions.\n\nImplementation: vis-network with hierarchical layout and click-to-highlight paths"
+}

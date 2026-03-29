@@ -1,0 +1,14 @@
+{
+  "sim_id": "acro-vs-pleuro",
+  "diagram_name": "Acrocarpous vs Pleurocarpous Growth Forms",
+  "chapter_number": 5,
+  "chapter_title": "Moss Types and Identification",
+  "chapter_dir": "05-moss-types-and-identification",
+  "library": "diagram.js (shared-libs)",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic Overlay\n**sim-id:** acro-vs-pleuro<br/>\n**Library:** diagram.js (shared-libs)<br/>\n**Status:** Specified\n\nA side-by-side botanical illustration comparing acrocarpous and pleurocarpous moss growth forms with interactive overlay markers.\n\nImage: Landscape (1200x900), watercolor botanical style, white background. The image is divided into left and right halves by a subtle vertical dividing line.\n\nLeft half — Acrocarpous: A cluster of 5-6 upright moss plants growing vertically from soil substrate, forming a dense cushion. Each plant shows a distinct vertical stem with spirally arranged leaves. One plant has a sporophyte (brown seta and capsule) emerging from the **tip** of the main stem. The overall silhouette is dome-shaped/mounded. Colors: bright green (#32CD32) leaves, light green (#90EE90) stems, brown (#8B4513) substrate, reddish-brown (#A0522D) sporophyte.\n\nRight half — Pleurocarpous: A mat of creeping moss growing horizontally across a rock substrate, forming a flat carpet. Multiple branching stems spread laterally with regularly spaced leaves. One stem has a sporophyte (brown seta and capsule) emerging from the **side** of a stem (not the tip). The overall silhouette is flat and spreading. Colors: bright green (#32CD32) leaves, light green (#90EE90) stems, gray (#808080) rock substrate, reddish-brown (#A0522D) sporophyte.\n\nOverlay callouts (8 structures):\n1. Upright stem (left, on acrocarpous stem) — \"Vertical growth direction\"\n2. Terminal sporophyte (left, on capsule at stem tip) — \"Sporophyte at stem tip\"\n3. Cushion form (left, overall dome shape) — \"Dense cushion or turf growth form\"\n4. Soil substrate (left, bottom) — \"Often found on soil in exposed sites\"\n5. Creeping stem (right, on horizontal stem) — \"Horizontal growth direction\"\n6. Lateral sporophyte (right, on capsule on stem side) — \"Sporophyte from stem side\"\n7. Mat form (right, flat profile) — \"Flat mat or carpet growth form\"\n8. Rock substrate (right, bottom) — \"Often found on rock in sheltered, moist sites\"\n\nLayout: dual-panel\n\nLearning objective: (L4 — Analyze) Students can differentiate acrocarpous from pleurocarpous growth forms and predict which form is more likely in a given habitat.\n\nImplementation: Text-to-image illustration + diagram.js overlay with data.json"
+}

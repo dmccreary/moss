@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-growth-forms",
+  "diagram_name": "Moss Growth Forms",
+  "chapter_number": 5,
+  "chapter_title": "Moss Types and Identification",
+  "chapter_dir": "05-moss-types-and-identification",
+  "library": "diagram.js (shared-libs)",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic Overlay\n**sim-id:** moss-growth-forms<br/>\n**Library:** diagram.js (shared-libs)<br/>\n**Status:** Specified\n\nA botanical illustration showing 7 moss growth forms arranged in a grid, with interactive overlay markers.\n\nImage: Landscape (1200x900), watercolor botanical style, white background. Seven moss growth forms arranged in a layout with 4 on top and 3 on bottom, each clearly separated with distinct silhouettes.\n\nTop row (left to right):\n1. Cushion — a dense dome-shaped mound, bright green (#32CD32), on gray rock. Position: 12%, 28%\n2. Turf — a short, dense, flat-topped lawn-like carpet, dark green (#228B22), on brown soil. Position: 37%, 28%\n3. Mat — a thin, flat, tightly woven carpet, bright green (#32CD32), on rock surface. Position: 62%, 28%\n4. Weft — a loose, fluffy, interwoven carpet with visible individual stems, yellow-green (#9ACD32), on a log. Position: 87%, 28%\n\nBottom row (left to right):\n5. Pendant — strands hanging downward from a branch, pale green (#90EE90). Position: 20%, 75%\n6. Dendroid — a miniature tree shape with a distinct \"trunk\" and \"crown\" of branches, green (#2E8B57). Position: 50%, 75%\n7. Fan — a flattened, fan-shaped spray, light green (#90EE90), on vertical rock surface. Position: 80%, 75%\n\nOverlay callouts (7 entries): Each callout at the center of its growth form, with label and description explaining structure, typical habitat, and examples.\n\nLayout: dual-panel\n\nLearning objective: (L2 — Understand) Students can describe different moss growth forms and explain how growth form relates to habitat and species identification.\n\nImplementation: Text-to-image illustration + diagram.js overlay with data.json"
+}

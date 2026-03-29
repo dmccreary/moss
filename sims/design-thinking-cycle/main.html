@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Design Thinking Cycle for Moss Projects</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background: #fafafa; }
+        .container { display: flex; flex-wrap: wrap; max-width: 1100px; margin: 0 auto; padding: 10px; }
+        .diagram-panel { flex: 2; min-width: 300px; background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-right: 10px; }
+        .info-panel { flex: 1; min-width: 250px; background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; }
+        .info-panel h2 { margin-top: 0; color: #2e7d32; font-size: 20px; }
+        .info-panel h3 { color: #1b5e20; margin-bottom: 5px; }
+        .info-panel p { color: #555; line-height: 1.5; font-size: 14px; }
+        .stage-icon { font-size: 24px; margin-right: 8px; }
+        .highlight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 8px 12px; border-radius: 4px; margin-top: 10px; }
+        #mermaid-diagram { text-align: center; cursor: pointer; }
+        #mermaid-diagram svg { max-width: 100%; }
+        .back-link { display: block; text-align: center; margin: 10px; }
+        @media (max-width: 700px) {
+            .container { flex-direction: column; }
+            .diagram-panel { margin-right: 0; margin-bottom: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="diagram-panel">
+            <div id="mermaid-diagram">
+                <pre class="mermaid">
+graph LR
+    E["🔍 Empathize"]:::empathize --> D["🎯 Define"]:::define
+    D --> I["💡 Ideate"]:::ideate
+    I --> P["🔧 Prototype"]:::prototype
+    P --> T["📋 Test"]:::test
+    T -.->|"Iterate!"| E
+
+    classDef empathize fill:#4caf50,stroke:#2e7d32,color:#fff,rx:12,ry:12
+    classDef define fill:#2196f3,stroke:#1565c0,color:#fff,rx:12,ry:12
+    classDef ideate fill:#ff9800,stroke:#e65100,color:#fff,rx:12,ry:12
+    classDef prototype fill:#9c27b0,stroke:#6a1b9a,color:#fff,rx:12,ry:12
+    classDef test fill:#f44336,stroke:#c62828,color:#fff,rx:12,ry:12
+                </pre>
+            </div>
+        </div>
+        <div class="info-panel">
+            <h2>Design Thinking Cycle</h2>
+            <div id="info-content">
+                <p>Click on any stage in the diagram to learn how it applies to moss garden and mossarium projects.</p>
+                <div class="highlight">
+                    <strong>Iterate until it thrives!</strong><br>
+                    Design thinking is a circular process. After testing, you return to empathize and improve your design.
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="back-link" href=".">Back to Lesson Plan</a>
+
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontSize: '16px',
+                fontFamily: 'Arial, sans-serif'
+            },
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis',
+                padding: 20
+            }
+        });
+
+        const nodeInfo = {
+            'E': {
+                icon: '🔍',
+                title: 'Empathize',
+                color: '#4caf50',
+                description: 'What does the moss need? What does the gardener want?',
+                details: 'Observe moss in its natural habitat. Interview gardeners about their goals. Research the specific environmental conditions your moss species requires: light levels, humidity, substrate pH, and moisture.',
+                example: 'Visit a local forest and note where moss thrives. Ask: What surfaces does it prefer? How much shade does it get? What is the moisture level?'
+            },
+            'D': {
+                icon: '🎯',
+                title: 'Define',
+                color: '#2196f3',
+                description: 'State the problem clearly.',
+                details: 'Synthesize your observations into a clear problem statement. What specific challenge are you solving? Be precise about constraints like budget, space, light conditions, and maintenance capacity.',
+                example: '"I need to create a low-maintenance moss garden on my north-facing patio that receives only 2 hours of indirect light and has alkaline soil."'
+            },
+            'I': {
+                icon: '💡',
+                title: 'Ideate',
+                color: '#ff9800',
+                description: 'Brainstorm multiple solutions.',
+                details: 'Generate many possible approaches without judging them. Consider different moss species, substrate mixtures, watering systems, container types, and placement options. The best ideas often come from combining unexpected approaches.',
+                example: 'Could you use a mossarium instead? What about mixing species for texture? Would a buttermilk slurry help establish moss on stone?'
+            },
+            'P': {
+                icon: '🔧',
+                title: 'Prototype',
+                color: '#9c27b0',
+                description: 'Build a quick version.',
+                details: 'Create a small-scale test version of your best idea. Use inexpensive materials. A prototype moss garden might be a single tray or a small section of your planned area. The goal is to learn quickly, not to build something perfect.',
+                example: 'Plant three small test patches using different substrate mixes. Label each one and set up identical watering schedules.'
+            },
+            'T': {
+                icon: '📋',
+                title: 'Test',
+                color: '#f44336',
+                description: 'Observe what happens.',
+                details: 'Monitor your prototype over days and weeks. Record growth rates, color changes, and any signs of stress. Measure moisture levels and light exposure. Compare results against your expectations from the Empathize phase.',
+                example: 'After 2 weeks, Patch A (peat-based) shows strong growth; Patch B (sand-based) is drying out; Patch C (clay) has mold. Time to iterate!'
+            }
+        };
+
+        // Wait for Mermaid to render, then add click handlers
+        setTimeout(() => {
+            const svg = document.querySelector('#mermaid-diagram svg');
+            if (!svg) return;
+
+            // Add click handlers to nodes
+            const nodes = svg.querySelectorAll('.node');
+            nodes.forEach(node => {
+                node.style.cursor = 'pointer';
+                node.addEventListener('click', () => {
+                    const nodeId = node.id.split('-')[1] || node.id.charAt(node.id.length - 1);
+                    // Try to match by text content
+                    const text = node.textContent.trim();
+                    let info = null;
+                    for (const [key, val] of Object.entries(nodeInfo)) {
+                        if (text.includes(val.title)) {
+                            info = val;
+                            break;
+                        }
+                    }
+                    if (info) {
+                        document.getElementById('info-content').innerHTML = `
+                            <h3><span class="stage-icon">${info.icon}</span>${info.title}</h3>
+                            <p style="color: ${info.color}; font-weight: bold; font-size: 15px;">${info.description}</p>
+                            <p>${info.details}</p>
+                            <div class="highlight">
+                                <strong>Example:</strong> ${info.example}
+                            </div>
+                        `;
+                    }
+                });
+            });
+        }, 1500);
+    </script>
+</body>
+</html>

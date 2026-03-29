@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-water-storage",
+  "diagram_name": "Moss Water Absorption and Storage",
+  "chapter_number": 6,
+  "chapter_title": "Water, Climate, and Moss",
+  "chapter_dir": "06-water-climate-and-moss",
+  "library": "diagram.js (shared-libs)",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Interactive Infographic Overlay\n**sim-id:** moss-water-storage<br/>\n**Library:** diagram.js (shared-libs)<br/>\n**Status:** Specified\n\nA cross-section illustration of a moss cushion showing water absorption and storage mechanisms at multiple scales, with interactive overlay markers.\n\nImage: Landscape (1200x900), scientific illustration style, white background. A vertical cross-section through a dense moss cushion growing on rock substrate. The cross-section reveals the internal structure at three scales:\n\nLeft portion — Whole cushion view: A dome-shaped moss cushion (~5 cm tall) on gray rock. Rain droplets falling from above. Blue-tinted water visible throughout the structure. Arrows suggesting capillary movement upward between stems.\n\nCenter portion — Magnified stem view: 3-4 moss stems shown at magnification, with leaves overlapping. Blue water film visible between leaves and on leaf surfaces. Capillary channels between leaves highlighted with blue.\n\nRight portion — Cellular view: A few moss cells at high magnification showing the large pale blue vacuole filled with water, cell walls absorbing water (blue tint), and intercellular spaces filled with water.\n\nFor sphagnum inset (bottom right corner): A small circular magnification bubble showing the unique hyaline cells (large, hollow, with visible pores) next to smaller green photosynthetic cells.\n\nOverlay callouts (8 structures):\n1. Rainfall interception — rain droplets hitting the cushion surface\n2. Surface film — thin water layer on leaf exterior\n3. Capillary channels — spaces between overlapping leaves\n4. Stem transport — water moving up between stems\n5. Cell vacuole — large water-filled vacuole inside cell\n6. Cell wall absorption — water in cellulose walls\n7. Intercellular water — water between cells\n8. Hyaline cells (sphagnum inset) — specialized hollow water-storage cells\n\nLayout: dual-panel\n\nLearning objective: (L2 — Understand) Students can explain how moss absorbs and stores water at the colony, plant, and cellular levels.\n\nImplementation: Text-to-image illustration + diagram.js overlay with data.json"
+}

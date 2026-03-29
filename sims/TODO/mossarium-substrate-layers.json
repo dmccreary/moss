@@ -1,0 +1,14 @@
+{
+  "sim_id": "mossarium-substrate-layers",
+  "diagram_name": "Mossarium Substrate Cross-Section",
+  "chapter_number": 12,
+  "chapter_title": "Building a Mossarium",
+  "chapter_dir": "12-building-a-mossarium",
+  "library": "diagram.js (shared-libs)",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** mossarium-substrate-layers<br/>\n**Library:** diagram.js (shared-libs)<br/>\n**Layout:** dual-panel<br/>\n**Status:** Specified\n\nA cross-section diagram of a glass mossarium container showing all substrate layers:\n\n**Image description for generation:**\nA detailed cross-section illustration of a clear glass jar (apothecary style with rounded body and narrow neck) shown from the side. The jar contains four distinct horizontal layers, viewed in cross-section:\n\n- Bottom layer (2-3 cm): rounded gray and tan pebbles of varying sizes (1-2 cm diameter) — labeled \"Drainage Layer.\" Color: mixed grays (#808080, #A0A0A0, #B8B8B8) and tans (#C4A882)\n- Second layer (0.5-1 cm): small black granules packed densely — labeled \"Activated Charcoal.\" Color: matte black (#2C2C2C)\n- Third layer (2-3 cm): brown soil mixture with visible white perlite specks — labeled \"Soil Mix.\" Color: dark brown (#5C4033) with white flecks (#F0F0F0)\n- Top layer: vivid green moss cushions and mats — labeled \"Living Moss.\" Color: bright green (#4CAF50) and forest green (#2E7D32)\n\nSmall blue arrows show water cycling: dripping down through layers, pooling in drainage, evaporating upward. Blue water droplets visible in the drainage layer between pebbles. The glass walls are clear with slight reflective highlights. Background: soft off-white (#F5F5F0).\n\n**Overlay regions:**\n- Drainage Layer region — bottom section, tooltip: \"2-3 cm of clean pebbles or gravel. Excess water collects here, preventing waterlogging.\"\n- Charcoal Layer region — thin band above drainage, tooltip: \"0.5-1 cm of activated charcoal. Filters toxins and prevents odors.\"\n- Soil Mix region — middle-upper section, tooltip: \"2-3 cm of acidic soil mix (peat, perlite, sand, soil). Provides growing surface for moss.\"\n- Moss Layer region — top surface, tooltip: \"Living moss species arranged on the soil surface. Press gently to ensure contact.\"\n- Water Cycle arrows — blue arrows showing evaporation and condensation\n\n**Learning objective:** (L2 — Understand) Students can identify and explain the purpose of each substrate layer in a mossarium.\n\nImplementation: diagram.js with dual-panel layout and hover tooltips"
+}

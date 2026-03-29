@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-nutrient-cycles",
+  "diagram_name": "Nutrient Cycles in a Moss Ecosystem",
+  "chapter_number": 2,
+  "chapter_title": "Ecology and Conservation Foundations",
+  "chapter_dir": "02-ecology-and-conservation",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-nutrient-cycles<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive diagram showing the carbon, nitrogen, and phosphorus cycles within a moss ecosystem. The visualization uses a layered cross-section view:\n\n**Visual layout:**\n- Top layer: Atmosphere (light blue) with CO₂ and N₂ labels\n- Middle layer: Moss carpet (green) with visible moss plants\n- Lower layer: Soil (brown) with decomposing material\n- Bottom layer: Rock substrate (gray)\n\n**Three cycle overlays (toggled via buttons):**\n\n1. **Carbon cycle** (green arrows): CO₂ → moss (photosynthesis) → dead moss → soil organic matter → CO₂ (decomposition). Additional arrow from peat accumulation showing long-term carbon storage.\n2. **Nitrogen cycle** (blue arrows): N₂ → cyanobacteria in moss → available nitrogen → moss uptake → dead moss → decomposition → N₂ (denitrification)\n3. **Phosphorus cycle** (orange arrows): Rock → weathering → soil phosphorus → moss uptake → dead moss → decomposition → soil phosphorus\n\n**Controls:**\n- Three toggle buttons: \"Carbon,\" \"Nitrogen,\" \"Phosphorus\" to show/hide each cycle\n- \"Show All\" button to display all three simultaneously\n- Hover over any arrow to see a tooltip explaining that step\n\nCanvas: responsive width, 450px height\nColor scheme: green/blue/orange arrows on earth-tone background\n\n**Learning objective:** (L2 — Understand) Students can explain how carbon, nitrogen, and phosphorus cycle through a moss ecosystem and describe the role moss plays in each cycle.\n\nImplementation: p5.js with toggle buttons and hover tooltips"
+}

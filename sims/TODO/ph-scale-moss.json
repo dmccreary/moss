@@ -1,0 +1,14 @@
+{
+  "sim_id": "ph-scale-moss",
+  "diagram_name": "Interactive pH Scale for Moss Environments",
+  "chapter_number": 1,
+  "chapter_title": "Scientific Foundations and Prerequisites",
+  "chapter_dir": "01-scientific-foundations",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: MicroSim\n**sim-id:** ph-scale-moss<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn interactive pH scale visualization showing:\n\n- A horizontal color-gradient bar from red (pH 0) to blue (pH 14)\n- A draggable slider that moves along the scale\n- When the slider is in the 5.0-6.5 range, a green \"Moss Sweet Spot\" zone highlights\n- Labels for common substances at their pH values (lemon juice, coffee, pure water, seawater, bleach)\n- A moss icon that appears happy (green, upright) when pH is in the ideal range and sad (brown, wilted) when pH is too high or too low\n- Display of current pH value and a description of what that environment means for moss\n\nCanvas: responsive width, 300px height\nControls: draggable pH slider\nColor scheme: red-yellow-green-blue gradient\n\n**Learning objective:** (L3 — Apply) Students can identify the optimal pH range for moss growth and predict how different pH environments affect moss health.\n\nImplementation: p5.js with slider control and animated moss character"
+}

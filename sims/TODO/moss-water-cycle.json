@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-water-cycle",
+  "diagram_name": "Moss in the Water Cycle",
+  "chapter_number": 6,
+  "chapter_title": "Water, Climate, and Moss",
+  "chapter_dir": "06-water-climate-and-moss",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-water-cycle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nAn animated diagram showing how moss participates in the hydrological cycle, with labeled processes and flowing water particles.\n\nVisual elements:\n- A landscape scene showing sky (top), moss-covered ground (center), and soil/rock layers (bottom)\n- Rain drops falling from clouds\n- A dense moss mat covering the ground surface\n- Blue water particles showing movement:\n  - Rain hitting moss surface (rainfall interception)\n  - Water being absorbed into moss (storage)\n  - Water slowly dripping from moss to soil (slow release)\n  - Water vapor rising from moss surface (evapotranspiration)\n  - Surface runoff being slowed by moss (erosion prevention)\n- Labels for each process\n\nInteractive controls:\n- Slider: \"Rainfall Intensity\" (light drizzle to heavy rain)\n- At low rainfall: moss absorbs all water, no runoff\n- At high rainfall: moss saturates, some runoff begins\n- Toggle: \"With Moss\" vs \"Without Moss\" to compare water flow behavior\n- Display: Water storage gauge showing how much water the moss mat holds\n- Display: Runoff meter showing how much water escapes as surface flow\n\nCanvas: responsive width, 450px height\n\nLearning objective: (L4 — Analyze) Students can compare water flow behavior in moss-covered vs bare landscapes and explain how moss buffers the hydrological cycle.\n\nInstructional Rationale: Parameter exploration with a rainfall slider and comparison toggle supports analysis by letting students observe cause-and-effect relationships between rainfall intensity, moss presence, and water flow patterns.\n\nImplementation: p5.js with particle system for water, slider controls, and comparison toggle"
+}

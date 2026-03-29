@@ -1,0 +1,14 @@
+{
+  "sim_id": "design-thinking-cycle",
+  "diagram_name": "Design Thinking Cycle for Moss Projects",
+  "chapter_number": 1,
+  "chapter_title": "Scientific Foundations and Prerequisites",
+  "chapter_dir": "01-scientific-foundations",
+  "library": "Mermaid",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** design-thinking-cycle<br/>\n**Library:** Mermaid<br/>\n**Status:** Specified\n\nA circular flow diagram showing the five stages of design thinking applied to moss projects:\n\n1. **Empathize** (green) — \"What does the moss need? What does the gardener want?\"\n2. **Define** (blue) — \"State the problem clearly\"\n3. **Ideate** (orange) — \"Brainstorm multiple solutions\"\n4. **Prototype** (purple) — \"Build a quick version\"\n5. **Test** (red) — \"Observe what happens\"\n\nArrows connect each stage to the next in a clockwise circle. A dashed arrow from Test back to Empathize shows the iterative loop. Each stage has a small icon (magnifying glass, target, lightbulb, wrench, clipboard). Center text: \"Iterate until it thrives!\"\n\n**Learning objective:** (L2 — Understand) Students can explain the iterative design process and how it applies to moss garden and mossarium projects.\n\nImplementation: Mermaid flowchart with custom styling"
+}

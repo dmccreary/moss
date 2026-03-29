@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Moss as a Bioindicator</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+        main { max-width: 100%; padding: 10px; }
+        h2 { text-align: center; color: #333; margin: 8px 0; font-size: 20px; }
+        .chart-container { position: relative; width: 100%; max-width: 800px; margin: 0 auto; }
+        .toggle-container { text-align: center; margin: 10px 0; }
+        .toggle-btn {
+            padding: 6px 16px; margin: 0 4px; border: 2px solid #888; border-radius: 20px;
+            background: #f0f0f0; cursor: pointer; font-size: 13px; font-weight: bold;
+        }
+        .toggle-btn.active { background: #4CAF50; color: white; border-color: #388E3C; }
+        .note { text-align: center; color: #888; font-size: 11px; margin-top: 5px; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<main>
+    <h2>Heavy Metal Concentrations in Moss Tissue by Location</h2>
+    <div class="toggle-container">
+        <button class="toggle-btn active" id="btnAll" onclick="toggleDataset('all')">All Pollutants</button>
+        <button class="toggle-btn" id="btnHeavy" onclick="toggleDataset('heavy')">Heavy Metals Only</button>
+    </div>
+    <div class="chart-container">
+        <canvas id="bioChart"></canvas>
+    </div>
+    <p class="note">Hover over bars for exact values. Click legend items to show/hide locations.</p>
+</main>
+<script>
+const ctx = document.getElementById('bioChart').getContext('2d');
+
+const allLabels = ['Lead (Pb)', 'Cadmium (Cd)', 'Mercury (Hg)', 'Zinc (Zn)', 'Copper (Cu)'];
+const ruralData = [2, 0.1, 0.02, 15, 3];
+const suburbanData = [12, 0.5, 0.08, 45, 10];
+const urbanData = [45, 1.8, 0.25, 120, 35];
+
+const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: allLabels,
+        datasets: [
+            {
+                label: 'Clean Rural',
+                data: ruralData,
+                backgroundColor: 'rgba(76, 175, 80, 0.8)',
+                borderColor: 'rgba(56, 142, 60, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Suburban',
+                data: suburbanData,
+                backgroundColor: 'rgba(255, 193, 7, 0.8)',
+                borderColor: 'rgba(255, 160, 0, 1)',
+                borderWidth: 1
+            },
+            {
+                label: 'Urban Industrial',
+                data: urbanData,
+                backgroundColor: 'rgba(244, 67, 54, 0.8)',
+                borderColor: 'rgba(211, 47, 47, 1)',
+                borderWidth: 1
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 1.8,
+        plugins: {
+            legend: {
+                position: 'top',
+                labels: { font: { size: 13 } }
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return context.dataset.label + ': ' + context.parsed.y + ' \u00b5g/g dry weight';
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Concentration (\u00b5g/g dry weight)',
+                    font: { size: 13 }
+                }
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Pollutant',
+                    font: { size: 13 }
+                }
+            }
+        }
+    }
+});
+
+function toggleDataset(mode) {
+    document.getElementById('btnAll').classList.toggle('active', mode === 'all');
+    document.getElementById('btnHeavy').classList.toggle('active', mode === 'heavy');
+    if (mode === 'heavy') {
+        // Show only Lead, Cadmium, Mercury
+        chart.data.labels = ['Lead (Pb)', 'Cadmium (Cd)', 'Mercury (Hg)'];
+        chart.data.datasets[0].data = [2, 0.1, 0.02];
+        chart.data.datasets[1].data = [12, 0.5, 0.08];
+        chart.data.datasets[2].data = [45, 1.8, 0.25];
+    } else {
+        chart.data.labels = allLabels;
+        chart.data.datasets[0].data = ruralData;
+        chart.data.datasets[1].data = suburbanData;
+        chart.data.datasets[2].data = urbanData;
+    }
+    chart.update();
+}
+</script>
+<br/>
+<a href=".">Back to Lesson Plan</a>
+</body>
+</html>

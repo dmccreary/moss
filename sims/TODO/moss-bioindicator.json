@@ -1,0 +1,14 @@
+{
+  "sim_id": "moss-bioindicator",
+  "diagram_name": "Moss as a Bioindicator",
+  "chapter_number": 6,
+  "chapter_title": "Water, Climate, and Moss",
+  "chapter_dir": "06-water-climate-and-moss",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-03-22",
+  "specification": "Type: Diagram\n**sim-id:** moss-bioindicator<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nA bar chart comparing pollutant concentrations found in moss tissue at three different sites: clean rural, suburban, and urban industrial.\n\nChart type: Grouped bar chart\n\nX-axis: Pollutant type (Lead, Cadmium, Mercury, Zinc, Copper)\nY-axis: Concentration in moss tissue (μg/g dry weight)\n\nData series:\n1. Clean rural (green bars):\n   - Lead: 2, Cadmium: 0.1, Mercury: 0.02, Zinc: 15, Copper: 3\n\n2. Suburban (yellow bars):\n   - Lead: 12, Cadmium: 0.5, Mercury: 0.08, Zinc: 45, Copper: 10\n\n3. Urban industrial (red bars):\n   - Lead: 45, Cadmium: 1.8, Mercury: 0.25, Zinc: 120, Copper: 35\n\nTitle: \"Heavy Metal Concentrations in Moss Tissue by Location\"\nLegend: Position top-right\n\nInteractive: Hover over bars to see exact values. Click legend items to toggle series visibility.\n\nLearning objective: (L4 — Analyze) Students can interpret pollutant concentration data from moss samples and draw conclusions about air quality at different locations.\n\nImplementation: Chart.js grouped bar chart with hover tooltips"
+}
