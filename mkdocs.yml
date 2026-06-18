@@ -197,6 +197,9 @@ exclude_docs: |
   sims/moss-sporophyte-structure/image-prompt.md
 
 extra:
+  analytics:
+    provider: google
+    property: G-C2PZLEXX52
   generator: false
   schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
   textbook_name: Moss
