@@ -1,17 +1,17 @@
 {
   "title": "Design Thinking Cycle for Moss Projects",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for design thinking cycle for moss projects",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Design Thinking Cycle for Moss Projects",
     "learningObjectives": [
       "TODO: Add learning objectives"

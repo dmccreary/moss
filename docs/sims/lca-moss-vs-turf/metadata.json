@@ -1,17 +1,17 @@
 {
   "title": "Life Cycle Comparison \u2014 Moss vs. Turf Grass",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for life cycle comparison \u2014 moss vs. turf grass",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Life Cycle Comparison \u2014 Moss vs. Turf Grass",
     "learningObjectives": [
       "TODO: Add learning objectives"

@@ -1,17 +1,17 @@
 {
   "title": "Primary Succession on Rock",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for primary succession on rock",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Primary Succession on Rock",
     "learningObjectives": [
       "TODO: Add learning objectives"

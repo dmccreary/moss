@@ -1,17 +1,17 @@
 {
   "title": "Succession Stages on a Rock Surface",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for succession stages on a rock surface",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Succession Stages on a Rock Surface",
     "learningObjectives": [
       "TODO: Add learning objectives"

@@ -1,17 +1,17 @@
 {
   "title": "Moss as a Bioindicator",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for moss as a bioindicator",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Moss as a Bioindicator",
     "learningObjectives": [
       "TODO: Add learning objectives"

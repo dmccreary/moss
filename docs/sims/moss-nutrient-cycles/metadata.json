@@ -1,17 +1,17 @@
 {
   "title": "Nutrient Cycles in a Moss Ecosystem",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for nutrient cycles in a moss ecosystem",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Nutrient Cycles in a Moss Ecosystem",
     "learningObjectives": [
       "TODO: Add learning objectives"

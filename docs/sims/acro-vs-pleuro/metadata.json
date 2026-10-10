@@ -1,17 +1,17 @@
 {
   "title": "Acrocarpous vs Pleurocarpous Growth Forms",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for acrocarpous vs pleurocarpous growth forms",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Acrocarpous vs Pleurocarpous Growth Forms",
     "learningObjectives": [
       "TODO: Add learning objectives"

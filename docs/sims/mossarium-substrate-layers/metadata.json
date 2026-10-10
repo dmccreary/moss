@@ -1,17 +1,17 @@
 {
   "title": "Mossarium Substrate Cross-Section",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for mossarium substrate cross-section",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Mossarium Substrate Cross-Section",
     "learningObjectives": [
       "TODO: Add learning objectives"

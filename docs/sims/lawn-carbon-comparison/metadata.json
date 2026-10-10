@@ -1,17 +1,17 @@
 {
   "title": "Lawn Carbon Footprint Comparison",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for lawn carbon footprint comparison",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Lawn Carbon Footprint Comparison",
     "learningObjectives": [
       "TODO: Add learning objectives"

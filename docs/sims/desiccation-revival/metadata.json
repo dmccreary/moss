@@ -1,17 +1,17 @@
 {
   "title": "Moss Desiccation and Revival Cycle",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for moss desiccation and revival cycle",
   "date": "2026-03-22",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Moss Desiccation and Revival Cycle",
     "learningObjectives": [
       "TODO: Add learning objectives"

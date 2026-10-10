@@ -1,17 +1,17 @@
 {
   "title": "Water Transport Comparison: Vascular Plant vs Moss",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
+  "subject": "Moss",
   "description": "Interactive MicroSim for water transport comparison: vascular plant vs moss",
   "date": "2026-03-20",
   "educational": {
     "gradeLevel": [
-      "9",
       "10",
       "11",
-      "12"
+      "12",
+      "Undergraduate"
     ],
-    "subjectArea": "Mathematics",
+    "subjectArea": "Biology",
     "topic": "Water Transport Comparison: Vascular Plant vs Moss",
     "learningObjectives": [
       "TODO: Add learning objectives"
